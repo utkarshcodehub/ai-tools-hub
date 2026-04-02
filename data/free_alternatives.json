@@ -1,0 +1,38 @@
+{
+  "midjourney": {
+    "reason": "Midjourney has no free tier and no API",
+    "alternatives": ["stable-diffusion", "flux-schnell", "ideogram", "leonardo-ai"]
+  },
+  "github-copilot": {
+    "reason": "Copilot is $10/mo with no free tier for most users",
+    "alternatives": ["codeium", "supermaven", "continue-dev", "sourcegraph-cody"]
+  },
+  "openai-gpt4o": {
+    "reason": "GPT-4 API is expensive at scale",
+    "alternatives": ["groq-api", "gemini-api", "mistral-api", "openrouter"]
+  },
+  "elevenlabs": {
+    "reason": "ElevenLabs free tier is limited to 10K chars/mo",
+    "alternatives": ["whisper-openai"]
+  },
+  "dalle3": {
+    "reason": "DALL-E 3 API is paid per image",
+    "alternatives": ["stable-diffusion", "flux-schnell", "ideogram"]
+  },
+  "runway-ml": {
+    "reason": "Runway credits run out fast on free tier",
+    "alternatives": ["pika-labs"]
+  },
+  "notion-ai": {
+    "reason": "Notion AI requires a paid add-on",
+    "alternatives": ["grammarly", "gamma-app"]
+  },
+  "openai-embeddings": {
+    "reason": "OpenAI embeddings are pay-per-token with no free tier",
+    "alternatives": ["voyage-ai", "cohere-api"]
+  },
+  "pinecone": {
+    "reason": "Pinecone free tier is limited to 100K vectors",
+    "alternatives": ["weaviate"]
+  }
+}

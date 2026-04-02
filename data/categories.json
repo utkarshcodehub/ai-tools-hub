@@ -1,0 +1,62 @@
+[
+  {
+    "id": "llm",
+    "label": "LLM & Chat",
+    "description": "Large language models and conversational AI",
+    "color": "purple"
+  },
+  {
+    "id": "code",
+    "label": "Code & Dev",
+    "description": "AI coding assistants and developer tools",
+    "color": "blue"
+  },
+  {
+    "id": "image",
+    "label": "Image Generation",
+    "description": "AI image and art generation tools",
+    "color": "pink"
+  },
+  {
+    "id": "video",
+    "label": "Video",
+    "description": "AI video generation and editing",
+    "color": "coral"
+  },
+  {
+    "id": "audio",
+    "label": "Audio & Music",
+    "description": "AI music, sound, and voice generation",
+    "color": "amber"
+  },
+  {
+    "id": "search",
+    "label": "Search & Research",
+    "description": "AI-powered search and research tools",
+    "color": "teal"
+  },
+  {
+    "id": "agents",
+    "label": "Agents & Automation",
+    "description": "AI agents, workflows, and automation",
+    "color": "green"
+  },
+  {
+    "id": "embeddings",
+    "label": "Embeddings & RAG",
+    "description": "Vector embeddings and retrieval pipelines",
+    "color": "blue"
+  },
+  {
+    "id": "speech",
+    "label": "Speech & Voice",
+    "description": "Speech-to-text, text-to-speech, and voice cloning",
+    "color": "teal"
+  },
+  {
+    "id": "productivity",
+    "label": "Productivity",
+    "description": "AI tools for writing, notes, and workflows",
+    "color": "gray"
+  }
+]
