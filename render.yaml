@@ -1,0 +1,15 @@
+# Render Blueprint - Auto-deploys backend
+# Just connect your repo and Render will read this file
+
+services:
+  - type: web
+    name: ai-tools-hub-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+      - key: ALLOWED_ORIGINS
+        value: "https://ai-tools-hub.vercel.app,http://localhost:5173"
