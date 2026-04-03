@@ -1,408 +1,100 @@
 [
   {
-    "id": "openai-gpt4o",
-    "name": "GPT-4o",
-    "tagline": "OpenAI's flagship multimodal model for text, vision, and audio",
-    "website": "https://openai.com",
-    "logo_url": "https://logo.clearbit.com/openai.com",
-    "categories": ["llm"],
-    "tags": ["multimodal", "trending", "vision", "mainstream"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free via ChatGPT with limits; API requires paid credits",
-      "paid_starts_at": "$20/mo (ChatGPT Plus)",
-      "pricing_url": "https://openai.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://platform.openai.com/docs",
-      "key_url": "https://platform.openai.com/api-keys",
-      "base_url": "https://api.openai.com/v1",
-      "rate_limits": "Tier-based; starts at 3 RPM on free credit",
-      "env_var_name": "OPENAI_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["groq-api", "gemini-api", "huggingchat"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "anthropic-claude",
-    "name": "Claude",
-    "tagline": "Anthropic's AI assistant focused on safety and long-context reasoning",
-    "website": "https://claude.ai",
-    "logo_url": "https://logo.clearbit.com/anthropic.com",
-    "categories": ["llm"],
-    "tags": ["long-context", "safety", "trending", "coding"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free tier on claude.ai with daily message limits",
-      "paid_starts_at": "$20/mo (Claude Pro)",
-      "pricing_url": "https://www.anthropic.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.anthropic.com",
-      "key_url": "https://console.anthropic.com/keys",
-      "base_url": "https://api.anthropic.com/v1",
-      "rate_limits": "Tier-based; free tier has low RPM",
-      "env_var_name": "ANTHROPIC_API_KEY",
-      "auth_method": "x-api-key"
-    },
-    "free_alternatives": ["groq-api", "huggingchat", "mistral-api"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "gemini-api",
-    "name": "Gemini",
-    "tagline": "Google's multimodal AI model with a generous free API tier",
-    "website": "https://gemini.google.com",
-    "logo_url": "https://logo.clearbit.com/google.com",
-    "categories": ["llm"],
-    "tags": ["multimodal", "free-api", "trending", "vision"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Gemini 1.5 Flash free via AI Studio; 15 RPM free API",
-      "paid_starts_at": "$20/mo (Google One AI Premium)",
-      "pricing_url": "https://ai.google.dev/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://ai.google.dev/docs",
-      "key_url": "https://aistudio.google.com/app/apikey",
-      "base_url": "https://generativelanguage.googleapis.com/v1beta",
-      "rate_limits": "15 RPM, 1M TPM on free tier",
-      "env_var_name": "GEMINI_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "groq-api",
-    "name": "Groq",
-    "tagline": "Blazing fast LLM inference for Llama, Mixtral, and Gemma — free API",
-    "website": "https://groq.com",
-    "logo_url": "https://logo.clearbit.com/groq.com",
-    "categories": ["llm"],
-    "tags": ["free-api", "fast", "open-source-models", "trending"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free API tier with rate limits; runs Llama3, Mixtral, Gemma",
-      "paid_starts_at": "Pay-per-token on paid tier",
-      "pricing_url": "https://groq.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://console.groq.com/docs",
-      "key_url": "https://console.groq.com/keys",
-      "base_url": "https://api.groq.com/openai/v1",
-      "rate_limits": "30 RPM, 6000 TPM on free tier",
-      "env_var_name": "GROQ_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "mistral-api",
-    "name": "Mistral AI",
-    "tagline": "European open-weight LLMs with strong coding and multilingual ability",
-    "website": "https://mistral.ai",
-    "logo_url": "https://logo.clearbit.com/mistral.ai",
-    "categories": ["llm"],
-    "tags": ["open-source", "multilingual", "free-api", "european"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free tier via La Plateforme with rate limits",
-      "paid_starts_at": "Pay-per-token",
-      "pricing_url": "https://mistral.ai/technology"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.mistral.ai",
-      "key_url": "https://console.mistral.ai/api-keys",
-      "base_url": "https://api.mistral.ai/v1",
-      "rate_limits": "1 RPM on free tier",
-      "env_var_name": "MISTRAL_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "huggingchat",
-    "name": "HuggingChat",
-    "tagline": "Free chat interface running open-source models from Hugging Face",
-    "website": "https://huggingface.co/chat",
-    "logo_url": "https://logo.clearbit.com/huggingface.co",
-    "categories": ["llm"],
-    "tags": ["free", "open-source", "no-api-key"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Completely free, no account required for basic use",
-      "paid_starts_at": "Free only",
-      "pricing_url": "https://huggingface.co/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://huggingface.co/docs/api-inference",
-      "key_url": "https://huggingface.co/settings/tokens",
-      "base_url": "https://api-inference.huggingface.co/models",
-      "rate_limits": "Free tier available with HF token",
-      "env_var_name": "HUGGINGFACE_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "together-ai",
-    "name": "Together AI",
-    "tagline": "Run 100+ open-source models via one unified API",
-    "website": "https://together.ai",
-    "logo_url": "https://logo.clearbit.com/together.ai",
-    "categories": ["llm"],
-    "tags": ["open-source-models", "free-credits", "api"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "$1 free credit on signup",
-      "paid_starts_at": "Pay-per-token",
-      "pricing_url": "https://together.ai/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.together.ai",
-      "key_url": "https://api.together.ai/settings/api-keys",
-      "base_url": "https://api.together.xyz/v1",
-      "rate_limits": "Rate limited by credits",
-      "env_var_name": "TOGETHER_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["groq-api"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "openrouter",
-    "name": "OpenRouter",
-    "tagline": "Single API to access 200+ models from OpenAI, Anthropic, Google, and more",
-    "website": "https://openrouter.ai",
-    "logo_url": "https://logo.clearbit.com/openrouter.ai",
-    "categories": ["llm"],
-    "tags": ["api-aggregator", "free-models", "trending"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Several models available completely free with account",
-      "paid_starts_at": "Pay-per-token per model",
-      "pricing_url": "https://openrouter.ai/models"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://openrouter.ai/docs",
-      "key_url": "https://openrouter.ai/keys",
-      "base_url": "https://openrouter.ai/api/v1",
-      "rate_limits": "Varies by model",
-      "env_var_name": "OPENROUTER_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "perplexity-ai",
-    "name": "Perplexity AI",
-    "tagline": "AI search engine that gives cited, real-time answers from the web",
-    "website": "https://perplexity.ai",
-    "logo_url": "https://logo.clearbit.com/perplexity.ai",
-    "categories": ["llm", "search"],
-    "tags": ["search", "trending", "citations", "real-time"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free with unlimited searches; limited Pro queries per day",
-      "paid_starts_at": "$20/mo (Pro)",
-      "pricing_url": "https://perplexity.ai/pro"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.perplexity.ai",
-      "key_url": "https://perplexity.ai/settings/api",
-      "base_url": "https://api.perplexity.ai",
-      "rate_limits": "Tier-based",
-      "env_var_name": "PERPLEXITY_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["phind", "you-com"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "cohere-api",
-    "name": "Cohere",
-    "tagline": "Enterprise LLM API specializing in text generation, embeddings, and RAG",
-    "website": "https://cohere.com",
-    "logo_url": "https://logo.clearbit.com/cohere.com",
-    "categories": ["llm", "embeddings"],
-    "tags": ["enterprise", "rag", "embeddings", "free-trial"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Trial API key with rate limits for prototyping",
-      "paid_starts_at": "Pay-per-token",
-      "pricing_url": "https://cohere.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.cohere.com",
-      "key_url": "https://dashboard.cohere.com/api-keys",
-      "base_url": "https://api.cohere.ai/v1",
-      "rate_limits": "5 calls/min on trial",
-      "env_var_name": "COHERE_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["huggingchat"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "github-copilot",
-    "name": "GitHub Copilot",
-    "tagline": "AI pair programmer integrated directly into VSCode, JetBrains, and Neovim",
-    "website": "https://github.com/features/copilot",
-    "logo_url": "https://logo.clearbit.com/github.com",
-    "categories": ["code"],
-    "tags": ["ide-plugin", "trending", "mainstream", "autocomplete"],
+    "name": "1",
+    "tagline": "Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+    "website": "https://prismml.com/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
     "pricing": {
       "has_free_tier": false,
-      "free_details": "Free for verified students and open-source maintainers only",
-      "paid_starts_at": "$10/mo (Individual)",
-      "pricing_url": "https://github.com/features/copilot#pricing"
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
     },
     "api": {
       "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
     },
-    "free_alternatives": ["codeium", "supermaven", "continue-dev"],
     "status": "active",
-    "free_tier_verified_date": "2025-01-01"
+    "id": "1",
+    "logo_url": "https://logo.clearbit.com/prismml.com",
+    "free_alternatives": []
   },
   {
-    "id": "cursor",
-    "name": "Cursor",
-    "tagline": "AI-first code editor built on VSCode with chat, edit, and agent modes",
-    "website": "https://cursor.sh",
-    "logo_url": "https://logo.clearbit.com/cursor.sh",
-    "categories": ["code"],
-    "tags": ["editor", "trending", "agent", "autocomplete"],
+    "name": "30u30.fyi",
+    "tagline": "Is your startup founder on Forbes' most fraudulent list?",
+    "website": "https://30u30.fyi",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
     "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free Hobby tier with 2000 completions/mo and 50 slow requests",
-      "paid_starts_at": "$20/mo (Pro)",
-      "pricing_url": "https://cursor.sh/pricing"
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
     },
     "api": {
       "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
     },
-    "free_alternatives": ["codeium", "continue-dev"],
     "status": "active",
-    "free_tier_verified_date": "2025-01-01"
+    "id": "30u30fyi",
+    "logo_url": "https://logo.clearbit.com/30u30.fyi",
+    "free_alternatives": []
   },
   {
-    "id": "codeium",
-    "name": "Codeium",
-    "tagline": "Free AI code completion and chat for 70+ languages and all major IDEs",
-    "website": "https://codeium.com",
-    "logo_url": "https://logo.clearbit.com/codeium.com",
-    "categories": ["code"],
-    "tags": ["free", "ide-plugin", "autocomplete", "open-source-friendly"],
+    "name": "Ai Engineering From Scratch",
+    "tagline": "Learn it. Build it. Ship it for others.",
+    "website": "https://aiengineeringfromscratch.com",
+    "categories": [
+      "llm",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agents",
+      "ai",
+      "ai-agents"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "Completely free for individuals — unlimited completions",
-      "paid_starts_at": "$12/mo (Teams)",
-      "pricing_url": "https://codeium.com/pricing"
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
     },
     "api": {
-      "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
+      "available": true,
+      "docs_url": "https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
     },
-    "free_alternatives": [],
     "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "supermaven",
-    "name": "Supermaven",
-    "tagline": "Extremely fast AI autocomplete with a 1M token context window — free tier",
-    "website": "https://supermaven.com",
-    "logo_url": "https://logo.clearbit.com/supermaven.com",
-    "categories": ["code"],
-    "tags": ["free", "fast", "autocomplete", "ide-plugin"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free tier with unlimited basic completions",
-      "paid_starts_at": "$10/mo (Pro)",
-      "pricing_url": "https://supermaven.com/pricing"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "continue-dev",
-    "name": "Continue",
-    "tagline": "Open-source AI code assistant — bring your own model, works in VSCode",
-    "website": "https://continue.dev",
-    "logo_url": "https://logo.clearbit.com/continue.dev",
-    "categories": ["code"],
-    "tags": ["open-source", "free", "bring-your-own-model", "ide-plugin"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Completely free and open source; connect your own API keys",
-      "paid_starts_at": "Free only",
-      "pricing_url": "https://continue.dev"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "https://docs.continue.dev",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
+    "id": "ai-engineering-from-scratch",
+    "logo_url": "https://logo.clearbit.com/aiengineeringfromscratch.com",
+    "free_alternatives": []
   },
   {
     "id": "aider",
@@ -410,8 +102,15 @@
     "tagline": "Open-source AI pair programmer that edits code in your local git repo via CLI",
     "website": "https://aider.chat",
     "logo_url": "https://logo.clearbit.com/aider.chat",
-    "categories": ["code"],
-    "tags": ["open-source", "cli", "git", "free"],
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "open-source",
+      "cli",
+      "git",
+      "free"
+    ],
     "pricing": {
       "has_free_tier": true,
       "free_details": "Free and open source; uses your own API keys (Groq free works)",
@@ -432,409 +131,35 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "sourcegraph-cody",
-    "name": "Sourcegraph Cody",
-    "tagline": "AI coding assistant with deep codebase context and multi-repo awareness",
-    "website": "https://sourcegraph.com/cody",
-    "logo_url": "https://logo.clearbit.com/sourcegraph.com",
-    "categories": ["code"],
-    "tags": ["free", "codebase-context", "ide-plugin"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free tier with 200 completions/day and 20 chat messages/day",
-      "paid_starts_at": "$9/mo (Pro)",
-      "pricing_url": "https://sourcegraph.com/pricing"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "https://docs.sourcegraph.com/cody",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "tabnine",
-    "name": "Tabnine",
-    "tagline": "AI code completion that can run locally for privacy-first teams",
-    "website": "https://tabnine.com",
-    "logo_url": "https://logo.clearbit.com/tabnine.com",
-    "categories": ["code"],
-    "tags": ["local-model", "privacy", "ide-plugin", "autocomplete"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Basic free tier with limited completions",
-      "paid_starts_at": "$12/mo (Pro)",
-      "pricing_url": "https://tabnine.com/pricing"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "https://docs.tabnine.com",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": ["codeium", "supermaven"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "tagline": "Industry-leading AI image generation known for photorealistic and artistic quality",
-    "website": "https://midjourney.com",
-    "logo_url": "https://logo.clearbit.com/midjourney.com",
-    "categories": ["image"],
-    "tags": ["trending", "high-quality", "mainstream", "discord"],
+    "name": "Apfel",
+    "tagline": "The free AI already on your Mac",
+    "website": "https://apfel.franzai.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
     "pricing": {
       "has_free_tier": false,
-      "free_details": "No free tier — free trial was removed in 2023",
-      "paid_starts_at": "$10/mo (Basic)",
-      "pricing_url": "https://docs.midjourney.com/docs/plans"
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
     },
     "api": {
       "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
     },
-    "free_alternatives": ["stable-diffusion", "flux-schnell", "ideogram"],
     "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "stable-diffusion",
-    "name": "Stable Diffusion",
-    "tagline": "Open-source image generation model — run locally or via hosted APIs",
-    "website": "https://stability.ai",
-    "logo_url": "https://logo.clearbit.com/stability.ai",
-    "categories": ["image"],
-    "tags": ["open-source", "free", "local", "self-hosted"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Completely free to download and run locally via ComfyUI or Automatic1111",
-      "paid_starts_at": "Free (local) or pay-per-image via Stability AI API",
-      "pricing_url": "https://stability.ai/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://platform.stability.ai/docs",
-      "key_url": "https://platform.stability.ai/account/keys",
-      "base_url": "https://api.stability.ai/v1",
-      "rate_limits": "150 free credits on signup",
-      "env_var_name": "STABILITY_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "flux-schnell",
-    "name": "FLUX.1",
-    "tagline": "State-of-the-art open image generation model by Black Forest Labs",
-    "website": "https://blackforestlabs.ai",
-    "logo_url": "https://logo.clearbit.com/blackforestlabs.ai",
-    "categories": ["image"],
-    "tags": ["open-source", "free", "trending", "high-quality"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "FLUX.1 Schnell is free and open source; run via fal.ai or Replicate free tiers",
-      "paid_starts_at": "Free (open source)",
-      "pricing_url": "https://fal.ai/models/fal-ai/flux/schnell"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://fal.ai/models/fal-ai/flux",
-      "key_url": "https://fal.ai/dashboard/keys",
-      "base_url": "https://fal.run/fal-ai/flux",
-      "rate_limits": "Free credits on fal.ai signup",
-      "env_var_name": "FAL_KEY",
-      "auth_method": "Key"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "ideogram",
-    "name": "Ideogram",
-    "tagline": "AI image generator with excellent text rendering in images",
-    "website": "https://ideogram.ai",
-    "logo_url": "https://logo.clearbit.com/ideogram.ai",
-    "categories": ["image"],
-    "tags": ["free", "text-in-image", "trending"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "10 free images per day on free tier",
-      "paid_starts_at": "$8/mo (Basic)",
-      "pricing_url": "https://ideogram.ai/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://developer.ideogram.ai/docs",
-      "key_url": "https://ideogram.ai/manage-api",
-      "base_url": "https://api.ideogram.ai",
-      "rate_limits": "Limited on free; paid per generation",
-      "env_var_name": "IDEOGRAM_API_KEY",
-      "auth_method": "Api-Key"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "leonardo-ai",
-    "name": "Leonardo.AI",
-    "tagline": "AI image platform with fine-tuned models for game art, portraits, and design",
-    "website": "https://leonardo.ai",
-    "logo_url": "https://logo.clearbit.com/leonardo.ai",
-    "categories": ["image"],
-    "tags": ["free", "game-art", "fine-tuning", "api"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "150 free tokens per day",
-      "paid_starts_at": "$12/mo (Apprentice)",
-      "pricing_url": "https://leonardo.ai/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.leonardo.ai",
-      "key_url": "https://app.leonardo.ai/settings/api-key",
-      "base_url": "https://cloud.leonardo.ai/api/rest/v1",
-      "rate_limits": "Tied to token balance",
-      "env_var_name": "LEONARDO_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "tagline": "OpenAI's image generator with accurate prompt following and text rendering",
-    "website": "https://openai.com/dall-e-3",
-    "logo_url": "https://logo.clearbit.com/openai.com",
-    "categories": ["image"],
-    "tags": ["mainstream", "api", "text-in-image"],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": "Available in ChatGPT free with limits; API is paid",
-      "paid_starts_at": "$0.04 per image (API)",
-      "pricing_url": "https://openai.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://platform.openai.com/docs/guides/images",
-      "key_url": "https://platform.openai.com/api-keys",
-      "base_url": "https://api.openai.com/v1/images",
-      "rate_limits": "Tier-based",
-      "env_var_name": "OPENAI_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["stable-diffusion", "flux-schnell", "ideogram"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "runway-ml",
-    "name": "Runway",
-    "tagline": "Professional AI video generation and editing platform used in film production",
-    "website": "https://runwayml.com",
-    "logo_url": "https://logo.clearbit.com/runwayml.com",
-    "categories": ["video"],
-    "tags": ["trending", "professional", "video-gen", "mainstream"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "125 free credits on signup",
-      "paid_starts_at": "$15/mo (Standard)",
-      "pricing_url": "https://runwayml.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.dev.runwayml.com",
-      "key_url": "https://app.runwayml.com/settings",
-      "base_url": "https://api.dev.runwayml.com/v1",
-      "rate_limits": "Credit-based",
-      "env_var_name": "RUNWAY_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["pika-labs"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "pika-labs",
-    "name": "Pika",
-    "tagline": "AI video generation from text and images with a generous free tier",
-    "website": "https://pika.art",
-    "logo_url": "https://logo.clearbit.com/pika.art",
-    "categories": ["video"],
-    "tags": ["free", "trending", "video-gen"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free tier with 30 videos/month via web app",
-      "paid_starts_at": "$8/mo (Basic)",
-      "pricing_url": "https://pika.art/pricing"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "elevenlabs",
-    "name": "ElevenLabs",
-    "tagline": "Best-in-class AI voice cloning and text-to-speech with emotional control",
-    "website": "https://elevenlabs.io",
-    "logo_url": "https://logo.clearbit.com/elevenlabs.io",
-    "categories": ["audio", "speech"],
-    "tags": ["trending", "voice-cloning", "tts", "api"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "10,000 characters/mo free",
-      "paid_starts_at": "$5/mo (Starter)",
-      "pricing_url": "https://elevenlabs.io/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://elevenlabs.io/docs/api-reference",
-      "key_url": "https://elevenlabs.io/app/settings/api-keys",
-      "base_url": "https://api.elevenlabs.io/v1",
-      "rate_limits": "Tied to character quota",
-      "env_var_name": "ELEVENLABS_API_KEY",
-      "auth_method": "xi-api-key"
-    },
-    "free_alternatives": ["openai-tts", "edge-tts"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "suno-ai",
-    "name": "Suno",
-    "tagline": "Generate full songs with vocals and instrumentation from a text prompt",
-    "website": "https://suno.com",
-    "logo_url": "https://logo.clearbit.com/suno.com",
-    "categories": ["audio"],
-    "tags": ["music-gen", "free", "trending"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "50 free credits per day (about 10 songs)",
-      "paid_starts_at": "$10/mo (Pro)",
-      "pricing_url": "https://suno.com/pricing"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": ["udio"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "udio",
-    "name": "Udio",
-    "tagline": "AI music generator with high-quality output and free daily generations",
-    "website": "https://udio.com",
-    "logo_url": "https://logo.clearbit.com/udio.com",
-    "categories": ["audio"],
-    "tags": ["music-gen", "free", "trending"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "1200 free track generations per month",
-      "paid_starts_at": "$10/mo (Standard)",
-      "pricing_url": "https://udio.com/pricing"
-    },
-    "api": {
-      "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "whisper-openai",
-    "name": "Whisper",
-    "tagline": "OpenAI's open-source speech-to-text model with multilingual support",
-    "website": "https://openai.com/research/whisper",
-    "logo_url": "https://logo.clearbit.com/openai.com",
-    "categories": ["speech"],
-    "tags": ["open-source", "free", "stt", "multilingual"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Completely free and open source to run locally",
-      "paid_starts_at": "$0.006/min via OpenAI API",
-      "pricing_url": "https://openai.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://platform.openai.com/docs/guides/speech-to-text",
-      "key_url": "https://platform.openai.com/api-keys",
-      "base_url": "https://api.openai.com/v1/audio",
-      "rate_limits": "Tier-based",
-      "env_var_name": "OPENAI_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "deepgram",
-    "name": "Deepgram",
-    "tagline": "Fast, accurate speech-to-text API with speaker diarization and live streaming",
-    "website": "https://deepgram.com",
-    "logo_url": "https://logo.clearbit.com/deepgram.com",
-    "categories": ["speech"],
-    "tags": ["stt", "real-time", "api", "free-credits"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "$200 free credits on signup",
-      "paid_starts_at": "Pay-per-minute",
-      "pricing_url": "https://deepgram.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://developers.deepgram.com",
-      "key_url": "https://console.deepgram.com",
-      "base_url": "https://api.deepgram.com/v1",
-      "rate_limits": "Credit-based",
-      "env_var_name": "DEEPGRAM_API_KEY",
-      "auth_method": "Token"
-    },
-    "free_alternatives": ["whisper-openai"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
+    "id": "apfel",
+    "logo_url": "https://logo.clearbit.com/apfel.franzai.com",
+    "free_alternatives": []
   },
   {
     "id": "assemblyai",
@@ -842,8 +167,15 @@
     "tagline": "Speech-to-text API with transcription, summarization, and sentiment analysis",
     "website": "https://assemblyai.com",
     "logo_url": "https://logo.clearbit.com/assemblyai.com",
-    "categories": ["speech"],
-    "tags": ["stt", "transcription", "api", "free-credits"],
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "stt",
+      "transcription",
+      "api",
+      "free-credits"
+    ],
     "pricing": {
       "has_free_tier": true,
       "free_details": "Free tier with 100 hours of transcription",
@@ -859,77 +191,132 @@
       "env_var_name": "ASSEMBLYAI_API_KEY",
       "auth_method": "Authorization"
     },
-    "free_alternatives": ["whisper-openai"],
+    "free_alternatives": [
+      "whisper-openai"
+    ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "exa-ai",
-    "name": "Exa",
-    "tagline": "Search API for AI apps — semantic search over the live web with clean results",
-    "website": "https://exa.ai",
-    "logo_url": "https://logo.clearbit.com/exa.ai",
-    "categories": ["search"],
-    "tags": ["api", "semantic-search", "rag", "free-credits"],
+    "name": "Baton",
+    "tagline": "A desktop app for developing with AI agents",
+    "website": "https://getbaton.dev/",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "baton",
+    "logo_url": "https://logo.clearbit.com/getbaton.dev",
+    "free_alternatives": []
+  },
+  {
+    "name": "BreezePDF",
+    "tagline": "Free, in-browser PDF editor",
+    "website": "https://breezepdf.com/?v=3",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "breezepdf",
+    "logo_url": "https://logo.clearbit.com/breezepdf.com",
+    "free_alternatives": []
+  },
+  {
+    "id": "anthropic-claude",
+    "name": "Claude",
+    "tagline": "Anthropic's AI assistant focused on safety and long-context reasoning",
+    "website": "https://claude.ai",
+    "logo_url": "https://logo.clearbit.com/anthropic.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "long-context",
+      "safety",
+      "trending",
+      "coding"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "1000 free searches per month",
-      "paid_starts_at": "Pay-per-search",
-      "pricing_url": "https://exa.ai/pricing"
+      "free_details": "Free tier on claude.ai with daily message limits",
+      "paid_starts_at": "$20/mo (Claude Pro)",
+      "pricing_url": "https://www.anthropic.com/pricing"
     },
     "api": {
       "available": true,
-      "docs_url": "https://docs.exa.ai",
-      "key_url": "https://dashboard.exa.ai/api-keys",
-      "base_url": "https://api.exa.ai",
-      "rate_limits": "1000 reqs/month on free",
-      "env_var_name": "EXA_API_KEY",
+      "docs_url": "https://docs.anthropic.com",
+      "key_url": "https://console.anthropic.com/keys",
+      "base_url": "https://api.anthropic.com/v1",
+      "rate_limits": "Tier-based; free tier has low RPM",
+      "env_var_name": "ANTHROPIC_API_KEY",
       "auth_method": "x-api-key"
     },
-    "free_alternatives": ["tavily"],
+    "free_alternatives": [
+      "groq-api",
+      "huggingchat",
+      "mistral-api"
+    ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "tavily",
-    "name": "Tavily",
-    "tagline": "Search API purpose-built for AI agents — fast, clean, structured results",
-    "website": "https://tavily.com",
-    "logo_url": "https://logo.clearbit.com/tavily.com",
-    "categories": ["search", "agents"],
-    "tags": ["free-api", "agents", "rag", "search"],
+    "id": "codeium",
+    "name": "Codeium",
+    "tagline": "Free AI code completion and chat for 70+ languages and all major IDEs",
+    "website": "https://codeium.com",
+    "logo_url": "https://logo.clearbit.com/codeium.com",
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "free",
+      "ide-plugin",
+      "autocomplete",
+      "open-source-friendly"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "1000 free searches per month",
-      "paid_starts_at": "$9/mo",
-      "pricing_url": "https://tavily.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.tavily.com",
-      "key_url": "https://app.tavily.com/home",
-      "base_url": "https://api.tavily.com",
-      "rate_limits": "1000 calls/month free",
-      "env_var_name": "TAVILY_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "phind",
-    "name": "Phind",
-    "tagline": "AI search engine built for developers — searches docs, GitHub, and the web",
-    "website": "https://phind.com",
-    "logo_url": "https://logo.clearbit.com/phind.com",
-    "categories": ["search", "code"],
-    "tags": ["free", "developer", "search", "no-api-key"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Completely free for developer search",
-      "paid_starts_at": "$20/mo (Pro)",
-      "pricing_url": "https://phind.com"
+      "free_details": "Completely free for individuals — unlimited completions",
+      "paid_starts_at": "$12/mo (Teams)",
+      "pricing_url": "https://codeium.com/pricing"
     },
     "api": {
       "available": false,
@@ -945,49 +332,66 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "you-com",
-    "name": "You.com",
-    "tagline": "AI search and chat assistant with real-time web results",
-    "website": "https://you.com",
-    "logo_url": "https://logo.clearbit.com/you.com",
-    "categories": ["search"],
-    "tags": ["free", "search", "real-time"],
+    "id": "cohere-api",
+    "name": "Cohere",
+    "tagline": "Enterprise LLM API specializing in text generation, embeddings, and RAG",
+    "website": "https://cohere.com",
+    "logo_url": "https://logo.clearbit.com/cohere.com",
+    "categories": [
+      "llm",
+      "embeddings"
+    ],
+    "tags": [
+      "enterprise",
+      "rag",
+      "embeddings",
+      "free-trial"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "Free AI search with web results",
-      "paid_starts_at": "$20/mo (Pro)",
-      "pricing_url": "https://you.com/plans"
+      "free_details": "Trial API key with rate limits for prototyping",
+      "paid_starts_at": "Pay-per-token",
+      "pricing_url": "https://cohere.com/pricing"
     },
     "api": {
       "available": true,
-      "docs_url": "https://documentation.you.com",
-      "key_url": "https://api.you.com",
-      "base_url": "https://chat-api.you.com/smart",
-      "rate_limits": "60 RPM on paid",
-      "env_var_name": "YOU_API_KEY",
-      "auth_method": "X-API-Key"
+      "docs_url": "https://docs.cohere.com",
+      "key_url": "https://dashboard.cohere.com/api-keys",
+      "base_url": "https://api.cohere.ai/v1",
+      "rate_limits": "5 calls/min on trial",
+      "env_var_name": "COHERE_API_KEY",
+      "auth_method": "Bearer"
     },
-    "free_alternatives": [],
+    "free_alternatives": [
+      "huggingchat"
+    ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "langchain",
-    "name": "LangChain",
-    "tagline": "Open-source framework for building LLM-powered agents and chains in Python/JS",
-    "website": "https://langchain.com",
-    "logo_url": "https://logo.clearbit.com/langchain.com",
-    "categories": ["agents"],
-    "tags": ["open-source", "free", "framework", "rag", "trending"],
+    "id": "continue-dev",
+    "name": "Continue",
+    "tagline": "Open-source AI code assistant — bring your own model, works in VSCode",
+    "website": "https://continue.dev",
+    "logo_url": "https://logo.clearbit.com/continue.dev",
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "open-source",
+      "free",
+      "bring-your-own-model",
+      "ide-plugin"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "Completely free and open source Python/JS library",
-      "paid_starts_at": "Free (LangSmith tracing has a free tier too)",
-      "pricing_url": "https://langchain.com"
+      "free_details": "Completely free and open source; connect your own API keys",
+      "paid_starts_at": "Free only",
+      "pricing_url": "https://continue.dev"
     },
     "api": {
       "available": false,
-      "docs_url": "https://python.langchain.com/docs",
+      "docs_url": "https://docs.continue.dev",
       "key_url": "",
       "base_url": "",
       "rate_limits": "",
@@ -999,13 +403,51 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Crazierl",
+    "tagline": "An Erlang Operating System",
+    "website": "https://crazierl.org/demo/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "crazierl",
+    "logo_url": "https://logo.clearbit.com/crazierl.org",
+    "free_alternatives": []
+  },
+  {
     "id": "crewai",
     "name": "CrewAI",
     "tagline": "Framework for orchestrating multiple AI agents working together on complex tasks",
     "website": "https://crewai.com",
     "logo_url": "https://logo.clearbit.com/crewai.com",
-    "categories": ["agents"],
-    "tags": ["open-source", "free", "multi-agent", "trending"],
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "free",
+      "multi-agent",
+      "trending"
+    ],
     "pricing": {
       "has_free_tier": true,
       "free_details": "Open source Python framework — completely free",
@@ -1026,153 +468,25 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "n8n",
-    "name": "n8n",
-    "tagline": "Open-source AI workflow automation with 400+ integrations and self-hosting",
-    "website": "https://n8n.io",
-    "logo_url": "https://logo.clearbit.com/n8n.io",
-    "categories": ["agents"],
-    "tags": ["open-source", "automation", "self-hosted", "free"],
+    "id": "cursor",
+    "name": "Cursor",
+    "tagline": "AI-first code editor built on VSCode with chat, edit, and agent modes",
+    "website": "https://cursor.sh",
+    "logo_url": "https://logo.clearbit.com/cursor.sh",
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "editor",
+      "trending",
+      "agent",
+      "autocomplete"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "Completely free to self-host",
-      "paid_starts_at": "$24/mo (Cloud Starter)",
-      "pricing_url": "https://n8n.io/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.n8n.io",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "openai-embeddings",
-    "name": "OpenAI Embeddings",
-    "tagline": "High-quality text embeddings for semantic search and RAG pipelines",
-    "website": "https://openai.com",
-    "logo_url": "https://logo.clearbit.com/openai.com",
-    "categories": ["embeddings"],
-    "tags": ["api", "rag", "semantic-search", "mainstream"],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": "No free tier — pay per token",
-      "paid_starts_at": "$0.02 per 1M tokens",
-      "pricing_url": "https://openai.com/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://platform.openai.com/docs/guides/embeddings",
-      "key_url": "https://platform.openai.com/api-keys",
-      "base_url": "https://api.openai.com/v1/embeddings",
-      "rate_limits": "Tier-based",
-      "env_var_name": "OPENAI_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": ["voyage-ai", "cohere-api"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "voyage-ai",
-    "name": "Voyage AI",
-    "tagline": "Best-in-class embedding models for retrieval — generous free API tier",
-    "website": "https://voyageai.com",
-    "logo_url": "https://logo.clearbit.com/voyageai.com",
-    "categories": ["embeddings"],
-    "tags": ["free-api", "rag", "semantic-search"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "200M free tokens per month on free tier",
-      "paid_starts_at": "Pay-per-token",
-      "pricing_url": "https://docs.voyageai.com/docs/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.voyageai.com",
-      "key_url": "https://dash.voyageai.com/api-keys",
-      "base_url": "https://api.voyageai.com/v1",
-      "rate_limits": "200M tokens/month free",
-      "env_var_name": "VOYAGE_API_KEY",
-      "auth_method": "Bearer"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "pinecone",
-    "name": "Pinecone",
-    "tagline": "Managed vector database for storing and querying embeddings at scale",
-    "website": "https://pinecone.io",
-    "logo_url": "https://logo.clearbit.com/pinecone.io",
-    "categories": ["embeddings"],
-    "tags": ["vector-db", "rag", "free-tier"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free Starter plan with 1 index and 100K vectors",
-      "paid_starts_at": "$70/mo (Standard)",
-      "pricing_url": "https://pinecone.io/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://docs.pinecone.io",
-      "key_url": "https://app.pinecone.io",
-      "base_url": "https://api.pinecone.io",
-      "rate_limits": "Free tier limits on upserts and queries",
-      "env_var_name": "PINECONE_API_KEY",
-      "auth_method": "Api-Key"
-    },
-    "free_alternatives": ["weaviate"],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "weaviate",
-    "name": "Weaviate",
-    "tagline": "Open-source vector database with built-in ML models and free cloud tier",
-    "website": "https://weaviate.io",
-    "logo_url": "https://logo.clearbit.com/weaviate.io",
-    "categories": ["embeddings"],
-    "tags": ["open-source", "vector-db", "free", "self-hosted"],
-    "pricing": {
-      "has_free_tier": true,
-      "free_details": "Free Sandbox cluster on Weaviate Cloud; self-host for free",
-      "paid_starts_at": "Usage-based on Weaviate Cloud",
-      "pricing_url": "https://weaviate.io/pricing"
-    },
-    "api": {
-      "available": true,
-      "docs_url": "https://weaviate.io/developers/weaviate",
-      "key_url": "https://console.weaviate.cloud",
-      "base_url": "Your cluster URL",
-      "rate_limits": "Sandbox has limited resources",
-      "env_var_name": "WEAVIATE_API_KEY",
-      "auth_method": "Authorization"
-    },
-    "free_alternatives": [],
-    "status": "active",
-    "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "id": "notion-ai",
-    "name": "Notion AI",
-    "tagline": "AI writing and summarization built directly into Notion workspaces",
-    "website": "https://notion.so",
-    "logo_url": "https://logo.clearbit.com/notion.so",
-    "categories": ["productivity"],
-    "tags": ["writing", "notes", "mainstream", "workspace"],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": "Requires Notion AI add-on ($10/mo on top of Notion plan)",
-      "paid_starts_at": "$10/mo (AI add-on)",
-      "pricing_url": "https://notion.so/pricing"
+      "free_details": "Free Hobby tier with 2000 completions/mo and 50 slow requests",
+      "paid_starts_at": "$20/mo (Pro)",
+      "pricing_url": "https://cursor.sh/pricing"
     },
     "api": {
       "available": false,
@@ -1183,32 +497,249 @@
       "env_var_name": "",
       "auth_method": ""
     },
-    "free_alternatives": ["grammarly", "gamma-app"],
+    "free_alternatives": [
+      "codeium",
+      "continue-dev"
+    ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "grammarly",
-    "name": "Grammarly",
-    "tagline": "AI writing assistant for grammar, tone, clarity, and plagiarism checking",
-    "website": "https://grammarly.com",
-    "logo_url": "https://logo.clearbit.com/grammarly.com",
-    "categories": ["productivity"],
-    "tags": ["writing", "free", "browser-extension", "mainstream"],
+    "id": "deepgram",
+    "name": "Deepgram",
+    "tagline": "Fast, accurate speech-to-text API with speaker diarization and live streaming",
+    "website": "https://deepgram.com",
+    "logo_url": "https://logo.clearbit.com/deepgram.com",
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "stt",
+      "real-time",
+      "api",
+      "free-credits"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "Free grammar and spell check; advanced features need Premium",
-      "paid_starts_at": "$12/mo (Premium)",
-      "pricing_url": "https://grammarly.com/plans"
+      "free_details": "$200 free credits on signup",
+      "paid_starts_at": "Pay-per-minute",
+      "pricing_url": "https://deepgram.com/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://developers.deepgram.com",
+      "key_url": "https://console.deepgram.com",
+      "base_url": "https://api.deepgram.com/v1",
+      "rate_limits": "Credit-based",
+      "env_var_name": "DEEPGRAM_API_KEY",
+      "auth_method": "Token"
+    },
+    "free_alternatives": [
+      "whisper-openai"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Dull",
+    "tagline": "Instagram Without Reels, YouTube Without Shorts (iOS)",
+    "website": "https://getdull.app",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
     },
     "api": {
       "available": false,
-      "docs_url": "",
-      "key_url": "",
-      "base_url": "",
-      "rate_limits": "",
-      "env_var_name": "",
-      "auth_method": ""
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "dull",
+    "logo_url": "https://logo.clearbit.com/getdull.app",
+    "free_alternatives": []
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "tagline": "Best-in-class AI voice cloning and text-to-speech with emotional control",
+    "website": "https://elevenlabs.io",
+    "logo_url": "https://logo.clearbit.com/elevenlabs.io",
+    "categories": [
+      "audio",
+      "speech"
+    ],
+    "tags": [
+      "trending",
+      "voice-cloning",
+      "tts",
+      "api"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "10,000 characters/mo free",
+      "paid_starts_at": "$5/mo (Starter)",
+      "pricing_url": "https://elevenlabs.io/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://elevenlabs.io/docs/api-reference",
+      "key_url": "https://elevenlabs.io/app/settings/api-keys",
+      "base_url": "https://api.elevenlabs.io/v1",
+      "rate_limits": "Tied to character quota",
+      "env_var_name": "ELEVENLABS_API_KEY",
+      "auth_method": "xi-api-key"
+    },
+    "free_alternatives": [
+      "openai-tts",
+      "edge-tts"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "exa-ai",
+    "name": "Exa",
+    "tagline": "Search API for AI apps — semantic search over the live web with clean results",
+    "website": "https://exa.ai",
+    "logo_url": "https://logo.clearbit.com/exa.ai",
+    "categories": [
+      "search"
+    ],
+    "tags": [
+      "api",
+      "semantic-search",
+      "rag",
+      "free-credits"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "1000 free searches per month",
+      "paid_starts_at": "Pay-per-search",
+      "pricing_url": "https://exa.ai/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.exa.ai",
+      "key_url": "https://dashboard.exa.ai/api-keys",
+      "base_url": "https://api.exa.ai",
+      "rate_limits": "1000 reqs/month on free",
+      "env_var_name": "EXA_API_KEY",
+      "auth_method": "x-api-key"
+    },
+    "free_alternatives": [
+      "tavily"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "fal-ai",
+    "name": "fal.ai",
+    "tagline": "Fast serverless API for running image, video, and audio AI models",
+    "website": "https://fal.ai",
+    "logo_url": "https://logo.clearbit.com/fal.ai",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "tags": [
+      "api",
+      "fast",
+      "free-credits",
+      "flux"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "$5 free credit on signup",
+      "paid_starts_at": "Pay-per-run",
+      "pricing_url": "https://fal.ai/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://fal.ai/docs",
+      "key_url": "https://fal.ai/dashboard/keys",
+      "base_url": "https://fal.run",
+      "rate_limits": "Credit-based",
+      "env_var_name": "FAL_KEY",
+      "auth_method": "Key"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Flight",
+    "tagline": "10K flights on a 3D globe in 3.5MB of Rust+WASM",
+    "website": "https://flight-viz.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "flight",
+    "logo_url": "https://logo.clearbit.com/flight-viz.com",
+    "free_alternatives": []
+  },
+  {
+    "id": "flux-schnell",
+    "name": "FLUX.1",
+    "tagline": "State-of-the-art open image generation model by Black Forest Labs",
+    "website": "https://blackforestlabs.ai",
+    "logo_url": "https://logo.clearbit.com/blackforestlabs.ai",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "open-source",
+      "free",
+      "trending",
+      "high-quality"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "FLUX.1 Schnell is free and open source; run via fal.ai or Replicate free tiers",
+      "paid_starts_at": "Free (open source)",
+      "pricing_url": "https://fal.ai/models/fal-ai/flux/schnell"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://fal.ai/models/fal-ai/flux",
+      "key_url": "https://fal.ai/dashboard/keys",
+      "base_url": "https://fal.run/fal-ai/flux",
+      "rate_limits": "Free credits on fal.ai signup",
+      "env_var_name": "FAL_KEY",
+      "auth_method": "Key"
     },
     "free_alternatives": [],
     "status": "active",
@@ -1220,8 +751,14 @@
     "tagline": "AI presentation and document builder — create polished decks from a prompt",
     "website": "https://gamma.app",
     "logo_url": "https://logo.clearbit.com/gamma.app",
-    "categories": ["productivity"],
-    "tags": ["free", "presentations", "trending"],
+    "categories": [
+      "productivity"
+    ],
+    "tags": [
+      "free",
+      "presentations",
+      "trending"
+    ],
     "pricing": {
       "has_free_tier": true,
       "free_details": "400 free AI credits on signup; unlimited basic export",
@@ -1242,13 +779,825 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "id": "gemini-api",
+    "name": "Gemini",
+    "tagline": "Google's multimodal AI model with a generous free API tier",
+    "website": "https://gemini.google.com",
+    "logo_url": "https://logo.clearbit.com/google.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "multimodal",
+      "free-api",
+      "trending",
+      "vision"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Gemini 1.5 Flash free via AI Studio; 15 RPM free API",
+      "paid_starts_at": "$20/mo (Google One AI Premium)",
+      "pricing_url": "https://ai.google.dev/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://ai.google.dev/docs",
+      "key_url": "https://aistudio.google.com/app/apikey",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "rate_limits": "15 RPM, 1M TPM on free tier",
+      "env_var_name": "GEMINI_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "tagline": "AI pair programmer integrated directly into VSCode, JetBrains, and Neovim",
+    "website": "https://github.com/features/copilot",
+    "logo_url": "https://logo.clearbit.com/github.com",
+    "categories": [
+      "code",
+      "llm",
+      "search",
+      "agents",
+      "speech",
+      "image"
+    ],
+    "tags": [
+      "ide-plugin",
+      "trending",
+      "mainstream",
+      "autocomplete",
+      "hacker-news",
+      "new-launch",
+      "open-source",
+      "github",
+      "ai-research",
+      "ai-tools",
+      "aris",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "brute-force",
+      "machine-learning",
+      "algorithmic-trading",
+      "backtesting",
+      "botbinance",
+      "deep-learning",
+      "engineering",
+      "fundamentals",
+      "agent-skills",
+      "beginner-friendly",
+      "computer-vision",
+      "2026",
+      "ai-agents",
+      "ai-",
+      "ai-engine",
+      "bpe",
+      "binance",
+      "bybit",
+      "agent-framework",
+      "ai-orchestration",
+      "awesome",
+      "ai-projects",
+      "computer-science-project"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free for verified students and open-source maintainers only",
+      "paid_starts_at": "$10/mo (Individual)",
+      "pricing_url": "https://github.com/features/copilot#pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/README.md",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [
+      "codeium",
+      "supermaven",
+      "continue-dev"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "openai-gpt4o",
+    "name": "GPT-4o",
+    "tagline": "OpenAI's flagship multimodal model for text, vision, and audio",
+    "website": "https://openai.com",
+    "logo_url": "https://logo.clearbit.com/openai.com",
+    "categories": [
+      "llm",
+      "image",
+      "speech",
+      "embeddings"
+    ],
+    "tags": [
+      "multimodal",
+      "trending",
+      "vision",
+      "mainstream",
+      "api",
+      "text-in-image",
+      "open-source",
+      "free",
+      "stt",
+      "multilingual",
+      "rag",
+      "semantic-search"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free via ChatGPT with limits; API requires paid credits",
+      "paid_starts_at": "$20/mo (ChatGPT Plus)",
+      "pricing_url": "https://openai.com/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://platform.openai.com/docs",
+      "key_url": "https://platform.openai.com/api-keys",
+      "base_url": "https://api.openai.com/v1",
+      "rate_limits": "Tier-based; starts at 3 RPM on free credit",
+      "env_var_name": "OPENAI_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [
+      "groq-api",
+      "gemini-api",
+      "huggingchat",
+      "stable-diffusion",
+      "flux-schnell",
+      "ideogram",
+      "voyage-ai",
+      "cohere-api"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "tagline": "AI writing assistant for grammar, tone, clarity, and plagiarism checking",
+    "website": "https://grammarly.com",
+    "logo_url": "https://logo.clearbit.com/grammarly.com",
+    "categories": [
+      "productivity"
+    ],
+    "tags": [
+      "writing",
+      "free",
+      "browser-extension",
+      "mainstream"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free grammar and spell check; advanced features need Premium",
+      "paid_starts_at": "$12/mo (Premium)",
+      "pricing_url": "https://grammarly.com/plans"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "groq-api",
+    "name": "Groq",
+    "tagline": "Blazing fast LLM inference for Llama, Mixtral, and Gemma — free API",
+    "website": "https://groq.com",
+    "logo_url": "https://logo.clearbit.com/groq.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "free-api",
+      "fast",
+      "open-source-models",
+      "trending"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free API tier with rate limits; runs Llama3, Mixtral, Gemma",
+      "paid_starts_at": "Pay-per-token on paid tier",
+      "pricing_url": "https://groq.com/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://console.groq.com/docs",
+      "key_url": "https://console.groq.com/keys",
+      "base_url": "https://api.groq.com/openai/v1",
+      "rate_limits": "30 RPM, 6000 TPM on free tier",
+      "env_var_name": "GROQ_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "tagline": "AI video generation with talking avatars — create presenter videos from text",
+    "website": "https://heygen.com",
+    "logo_url": "https://logo.clearbit.com/heygen.com",
+    "categories": [
+      "video"
+    ],
+    "tags": [
+      "avatars",
+      "trending",
+      "video-gen"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "1 free video per month (1 minute max)",
+      "paid_starts_at": "$29/mo (Creator)",
+      "pricing_url": "https://heygen.com/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.heygen.com",
+      "key_url": "https://app.heygen.com/settings",
+      "base_url": "https://api.heygen.com/v2",
+      "rate_limits": "Tied to plan credits",
+      "env_var_name": "HEYGEN_API_KEY",
+      "auth_method": "x-api-key"
+    },
+    "free_alternatives": [
+      "pika-labs"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "huggingchat",
+    "name": "HuggingChat",
+    "tagline": "Free chat interface running open-source models from Hugging Face",
+    "website": "https://huggingface.co/chat",
+    "logo_url": "https://logo.clearbit.com/huggingface.co",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "free",
+      "open-source",
+      "no-api-key"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Completely free, no account required for basic use",
+      "paid_starts_at": "Free only",
+      "pricing_url": "https://huggingface.co/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://huggingface.co/docs/api-inference",
+      "key_url": "https://huggingface.co/settings/tokens",
+      "base_url": "https://api-inference.huggingface.co/models",
+      "rate_limits": "Free tier available with HF token",
+      "env_var_name": "HUGGINGFACE_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "I built a frontpage for personal blogs",
+    "tagline": "I built a frontpage for personal blogs",
+    "website": "https://text.blogosphere.app/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "i-built-a-frontpage-for-personal-blogs",
+    "logo_url": "https://logo.clearbit.com/text.blogosphere.app",
+    "free_alternatives": []
+  },
+  {
+    "name": "I built an OS that is pure AI",
+    "tagline": "I built an OS that is pure AI",
+    "website": "https://pneuma.computer",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "i-built-an-os-that-is-pure-ai",
+    "logo_url": "https://logo.clearbit.com/pneuma.computer",
+    "free_alternatives": []
+  },
+  {
+    "name": "I made a free list of 100 places to promote your SaaS",
+    "tagline": "I made a free list of 100 places to promote your SaaS",
+    "website": "https://launchdirectories.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "i-made-a-free-list-of-100-places-to-promote-your-saas",
+    "logo_url": "https://logo.clearbit.com/launchdirectories.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "I tested 15 free AI models at building real software on a $25/year VPS",
+    "tagline": "I tested 15 free AI models at building real software on a $25/year VPS",
+    "website": "https://georgelarson.me/writing/2026-04-03-25-dollar-ai-lab/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "i-tested-15-free-ai-models-at-building-real-software-on-a-25year-vps",
+    "logo_url": "https://logo.clearbit.com/georgelarson.me",
+    "free_alternatives": []
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "tagline": "AI image generator with excellent text rendering in images",
+    "website": "https://ideogram.ai",
+    "logo_url": "https://logo.clearbit.com/ideogram.ai",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "free",
+      "text-in-image",
+      "trending"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "10 free images per day on free tier",
+      "paid_starts_at": "$8/mo (Basic)",
+      "pricing_url": "https://ideogram.ai/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://developer.ideogram.ai/docs",
+      "key_url": "https://ideogram.ai/manage-api",
+      "base_url": "https://api.ideogram.ai",
+      "rate_limits": "Limited on free; paid per generation",
+      "env_var_name": "IDEOGRAM_API_KEY",
+      "auth_method": "Api-Key"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "tagline": "Open-source framework for building LLM-powered agents and chains in Python/JS",
+    "website": "https://langchain.com",
+    "logo_url": "https://logo.clearbit.com/langchain.com",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "free",
+      "framework",
+      "rag",
+      "trending"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Completely free and open source Python/JS library",
+      "paid_starts_at": "Free (LangSmith tracing has a free tier too)",
+      "pricing_url": "https://langchain.com"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "https://python.langchain.com/docs",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo.AI",
+    "tagline": "AI image platform with fine-tuned models for game art, portraits, and design",
+    "website": "https://leonardo.ai",
+    "logo_url": "https://logo.clearbit.com/leonardo.ai",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "free",
+      "game-art",
+      "fine-tuning",
+      "api"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "150 free tokens per day",
+      "paid_starts_at": "$12/mo (Apprentice)",
+      "pricing_url": "https://leonardo.ai/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.leonardo.ai",
+      "key_url": "https://app.leonardo.ai/settings/api-key",
+      "base_url": "https://cloud.leonardo.ai/api/rest/v1",
+      "rate_limits": "Tied to token balance",
+      "env_var_name": "LEONARDO_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Liter Llm",
+    "tagline": "Universal LLM API client — 142+ providers, 11 native language bindings, powered",
+    "website": "https://kreuzberg.dev",
+    "categories": [
+      "llm",
+      "code"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "anthropic",
+      "api-client",
+      "llm"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/kreuzberg-dev/liter-llm/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "liter-llm",
+    "logo_url": "https://logo.clearbit.com/kreuzberg.dev",
+    "free_alternatives": []
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "tagline": "Industry-leading AI image generation known for photorealistic and artistic quality",
+    "website": "https://midjourney.com",
+    "logo_url": "https://logo.clearbit.com/midjourney.com",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "trending",
+      "high-quality",
+      "mainstream",
+      "discord"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": "No free tier — free trial was removed in 2023",
+      "paid_starts_at": "$10/mo (Basic)",
+      "pricing_url": "https://docs.midjourney.com/docs/plans"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [
+      "stable-diffusion",
+      "flux-schnell",
+      "ideogram"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "mistral-api",
+    "name": "Mistral AI",
+    "tagline": "European open-weight LLMs with strong coding and multilingual ability",
+    "website": "https://mistral.ai",
+    "logo_url": "https://logo.clearbit.com/mistral.ai",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "multilingual",
+      "free-api",
+      "european"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free tier via La Plateforme with rate limits",
+      "paid_starts_at": "Pay-per-token",
+      "pricing_url": "https://mistral.ai/technology"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.mistral.ai",
+      "key_url": "https://console.mistral.ai/api-keys",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": "1 RPM on free tier",
+      "env_var_name": "MISTRAL_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "tagline": "Open-source AI workflow automation with 400+ integrations and self-hosting",
+    "website": "https://n8n.io",
+    "logo_url": "https://logo.clearbit.com/n8n.io",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "automation",
+      "self-hosted",
+      "free"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Completely free to self-host",
+      "paid_starts_at": "$24/mo (Cloud Starter)",
+      "pricing_url": "https://n8n.io/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.n8n.io",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Nextis Aira 3D",
+    "tagline": "Open-source 7DoF 3D-printable robotic arm with LeRobot integration.",
+    "website": "https://www.nextis.tech/hardware",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "3d-printing",
+      "artificial-intelligence",
+      "machine-learning"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/robertorobotics/Nextis-AIRA-3D/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "nextis-aira-3d",
+    "logo_url": "https://logo.clearbit.com/www.nextis.tech",
+    "free_alternatives": []
+  },
+  {
+    "name": "Nightingale",
+    "tagline": "Machine learning powered Karaoke app (with scores!)",
+    "website": "https://nightingale.cafe",
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai",
+      "bevy-engine",
+      "demucs"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/rzru/nightingale/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "nightingale",
+    "logo_url": "https://logo.clearbit.com/nightingale.cafe",
+    "free_alternatives": []
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "tagline": "AI writing and summarization built directly into Notion workspaces",
+    "website": "https://notion.so",
+    "logo_url": "https://logo.clearbit.com/notion.so",
+    "categories": [
+      "productivity"
+    ],
+    "tags": [
+      "writing",
+      "notes",
+      "mainstream",
+      "workspace"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": "Requires Notion AI add-on ($10/mo on top of Notion plan)",
+      "paid_starts_at": "$10/mo (AI add-on)",
+      "pricing_url": "https://notion.so/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [
+      "grammarly",
+      "gamma-app"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "tagline": "Single API to access 200+ models from OpenAI, Anthropic, Google, and more",
+    "website": "https://openrouter.ai",
+    "logo_url": "https://logo.clearbit.com/openrouter.ai",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "api-aggregator",
+      "free-models",
+      "trending"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Several models available completely free with account",
+      "paid_starts_at": "Pay-per-token per model",
+      "pricing_url": "https://openrouter.ai/models"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://openrouter.ai/docs",
+      "key_url": "https://openrouter.ai/keys",
+      "base_url": "https://openrouter.ai/api/v1",
+      "rate_limits": "Varies by model",
+      "env_var_name": "OPENROUTER_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
     "id": "otter-ai",
     "name": "Otter.ai",
     "tagline": "AI meeting transcription and summarization with calendar integration",
     "website": "https://otter.ai",
     "logo_url": "https://logo.clearbit.com/otter.ai",
-    "categories": ["productivity", "speech"],
-    "tags": ["transcription", "meetings", "free"],
+    "categories": [
+      "productivity",
+      "speech"
+    ],
+    "tags": [
+      "transcription",
+      "meetings",
+      "free"
+    ],
     "pricing": {
       "has_free_tier": true,
       "free_details": "300 minutes of transcription per month free",
@@ -1264,9 +1613,218 @@
       "env_var_name": "",
       "auth_method": ""
     },
-    "free_alternatives": ["whisper-openai"],
+    "free_alternatives": [
+      "whisper-openai"
+    ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "perplexity-ai",
+    "name": "Perplexity AI",
+    "tagline": "AI search engine that gives cited, real-time answers from the web",
+    "website": "https://perplexity.ai",
+    "logo_url": "https://logo.clearbit.com/perplexity.ai",
+    "categories": [
+      "llm",
+      "search"
+    ],
+    "tags": [
+      "search",
+      "trending",
+      "citations",
+      "real-time"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free with unlimited searches; limited Pro queries per day",
+      "paid_starts_at": "$20/mo (Pro)",
+      "pricing_url": "https://perplexity.ai/pro"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.perplexity.ai",
+      "key_url": "https://perplexity.ai/settings/api",
+      "base_url": "https://api.perplexity.ai",
+      "rate_limits": "Tier-based",
+      "env_var_name": "PERPLEXITY_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [
+      "phind",
+      "you-com"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "PhAIL",
+    "tagline": "Real-robot benchmark for AI models",
+    "website": "https://phail.ai",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "phail",
+    "logo_url": "https://logo.clearbit.com/phail.ai",
+    "free_alternatives": []
+  },
+  {
+    "id": "phind",
+    "name": "Phind",
+    "tagline": "AI search engine built for developers — searches docs, GitHub, and the web",
+    "website": "https://phind.com",
+    "logo_url": "https://logo.clearbit.com/phind.com",
+    "categories": [
+      "search",
+      "code"
+    ],
+    "tags": [
+      "free",
+      "developer",
+      "search",
+      "no-api-key"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Completely free for developer search",
+      "paid_starts_at": "$20/mo (Pro)",
+      "pricing_url": "https://phind.com"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "pika-labs",
+    "name": "Pika",
+    "tagline": "AI video generation from text and images with a generous free tier",
+    "website": "https://pika.art",
+    "logo_url": "https://logo.clearbit.com/pika.art",
+    "categories": [
+      "video"
+    ],
+    "tags": [
+      "free",
+      "trending",
+      "video-gen"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free tier with 30 videos/month via web app",
+      "paid_starts_at": "$8/mo (Basic)",
+      "pricing_url": "https://pika.art/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "tagline": "Managed vector database for storing and querying embeddings at scale",
+    "website": "https://pinecone.io",
+    "logo_url": "https://logo.clearbit.com/pinecone.io",
+    "categories": [
+      "embeddings"
+    ],
+    "tags": [
+      "vector-db",
+      "rag",
+      "free-tier"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free Starter plan with 1 index and 100K vectors",
+      "paid_starts_at": "$70/mo (Standard)",
+      "pricing_url": "https://pinecone.io/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.pinecone.io",
+      "key_url": "https://app.pinecone.io",
+      "base_url": "https://api.pinecone.io",
+      "rate_limits": "Free tier limits on upserts and queries",
+      "env_var_name": "PINECONE_API_KEY",
+      "auth_method": "Api-Key"
+    },
+    "free_alternatives": [
+      "weaviate"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Recursive Improve",
+    "tagline": "🪞 Make your agents recursively self-improve",
+    "website": "https://kayba.ai/",
+    "categories": [
+      "llm",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agent-learning",
+      "agents",
+      "ai"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/kayba-ai/recursive-improve/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "recursive-improve",
+    "logo_url": "https://logo.clearbit.com/kayba.ai",
+    "free_alternatives": []
   },
   {
     "id": "replicate",
@@ -1274,8 +1832,16 @@
     "tagline": "Run any open-source AI model via API — image, video, audio, LLMs",
     "website": "https://replicate.com",
     "logo_url": "https://logo.clearbit.com/replicate.com",
-    "categories": ["image", "video", "llm"],
-    "tags": ["api", "open-source-models", "pay-per-run"],
+    "categories": [
+      "image",
+      "video",
+      "llm"
+    ],
+    "tags": [
+      "api",
+      "open-source-models",
+      "pay-per-run"
+    ],
     "pricing": {
       "has_free_tier": true,
       "free_details": "Small amount of free credits on signup",
@@ -1296,54 +1862,481 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "heygen",
-    "name": "HeyGen",
-    "tagline": "AI video generation with talking avatars — create presenter videos from text",
-    "website": "https://heygen.com",
-    "logo_url": "https://logo.clearbit.com/heygen.com",
-    "categories": ["video"],
-    "tags": ["avatars", "trending", "video-gen"],
+    "id": "runway-ml",
+    "name": "Runway",
+    "tagline": "Professional AI video generation and editing platform used in film production",
+    "website": "https://runwayml.com",
+    "logo_url": "https://logo.clearbit.com/runwayml.com",
+    "categories": [
+      "video"
+    ],
+    "tags": [
+      "trending",
+      "professional",
+      "video-gen",
+      "mainstream"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "1 free video per month (1 minute max)",
-      "paid_starts_at": "$29/mo (Creator)",
-      "pricing_url": "https://heygen.com/pricing"
+      "free_details": "125 free credits on signup",
+      "paid_starts_at": "$15/mo (Standard)",
+      "pricing_url": "https://runwayml.com/pricing"
     },
     "api": {
       "available": true,
-      "docs_url": "https://docs.heygen.com",
-      "key_url": "https://app.heygen.com/settings",
-      "base_url": "https://api.heygen.com/v2",
-      "rate_limits": "Tied to plan credits",
-      "env_var_name": "HEYGEN_API_KEY",
-      "auth_method": "x-api-key"
+      "docs_url": "https://docs.dev.runwayml.com",
+      "key_url": "https://app.runwayml.com/settings",
+      "base_url": "https://api.dev.runwayml.com/v1",
+      "rate_limits": "Credit-based",
+      "env_var_name": "RUNWAY_API_KEY",
+      "auth_method": "Bearer"
     },
-    "free_alternatives": ["pika-labs"],
+    "free_alternatives": [
+      "pika-labs"
+    ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
   },
   {
-    "id": "fal-ai",
-    "name": "fal.ai",
-    "tagline": "Fast serverless API for running image, video, and audio AI models",
-    "website": "https://fal.ai",
-    "logo_url": "https://logo.clearbit.com/fal.ai",
-    "categories": ["image", "video"],
-    "tags": ["api", "fast", "free-credits", "flux"],
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "tagline": "AI coding assistant with deep codebase context and multi-repo awareness",
+    "website": "https://sourcegraph.com/cody",
+    "logo_url": "https://logo.clearbit.com/sourcegraph.com",
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "free",
+      "codebase-context",
+      "ide-plugin"
+    ],
     "pricing": {
       "has_free_tier": true,
-      "free_details": "$5 free credit on signup",
-      "paid_starts_at": "Pay-per-run",
-      "pricing_url": "https://fal.ai/pricing"
+      "free_details": "Free tier with 200 completions/day and 20 chat messages/day",
+      "paid_starts_at": "$9/mo (Pro)",
+      "pricing_url": "https://sourcegraph.com/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "https://docs.sourcegraph.com/cody",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Sparkvsr",
+    "tagline": "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation",
+    "website": "https://sparkvsr.github.io",
+    "categories": [
+      "llm",
+      "code",
+      "image",
+      "video"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "artificial-intelligence",
+      "generative-ai",
+      "generative-models"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
     },
     "api": {
       "available": true,
-      "docs_url": "https://fal.ai/docs",
-      "key_url": "https://fal.ai/dashboard/keys",
-      "base_url": "https://fal.run",
-      "rate_limits": "Credit-based",
-      "env_var_name": "FAL_KEY",
-      "auth_method": "Key"
+      "docs_url": "https://github.com/taco-group/SparkVSR/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "sparkvsr",
+    "logo_url": "https://logo.clearbit.com/sparkvsr.github.io",
+    "free_alternatives": []
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "tagline": "Open-source image generation model — run locally or via hosted APIs",
+    "website": "https://stability.ai",
+    "logo_url": "https://logo.clearbit.com/stability.ai",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "open-source",
+      "free",
+      "local",
+      "self-hosted"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Completely free to download and run locally via ComfyUI or Automatic1111",
+      "paid_starts_at": "Free (local) or pay-per-image via Stability AI API",
+      "pricing_url": "https://stability.ai/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://platform.stability.ai/docs",
+      "key_url": "https://platform.stability.ai/account/keys",
+      "base_url": "https://api.stability.ai/v1",
+      "rate_limits": "150 free credits on signup",
+      "env_var_name": "STABILITY_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "suno-ai",
+    "name": "Suno",
+    "tagline": "Generate full songs with vocals and instrumentation from a text prompt",
+    "website": "https://suno.com",
+    "logo_url": "https://logo.clearbit.com/suno.com",
+    "categories": [
+      "audio"
+    ],
+    "tags": [
+      "music-gen",
+      "free",
+      "trending"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "50 free credits per day (about 10 songs)",
+      "paid_starts_at": "$10/mo (Pro)",
+      "pricing_url": "https://suno.com/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [
+      "udio"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "supermaven",
+    "name": "Supermaven",
+    "tagline": "Extremely fast AI autocomplete with a 1M token context window — free tier",
+    "website": "https://supermaven.com",
+    "logo_url": "https://logo.clearbit.com/supermaven.com",
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "free",
+      "fast",
+      "autocomplete",
+      "ide-plugin"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free tier with unlimited basic completions",
+      "paid_starts_at": "$10/mo (Pro)",
+      "pricing_url": "https://supermaven.com/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "tagline": "AI code completion that can run locally for privacy-first teams",
+    "website": "https://tabnine.com",
+    "logo_url": "https://logo.clearbit.com/tabnine.com",
+    "categories": [
+      "code"
+    ],
+    "tags": [
+      "local-model",
+      "privacy",
+      "ide-plugin",
+      "autocomplete"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Basic free tier with limited completions",
+      "paid_starts_at": "$12/mo (Pro)",
+      "pricing_url": "https://tabnine.com/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "https://docs.tabnine.com",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [
+      "codeium",
+      "supermaven"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily",
+    "tagline": "Search API purpose-built for AI agents — fast, clean, structured results",
+    "website": "https://tavily.com",
+    "logo_url": "https://logo.clearbit.com/tavily.com",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "tags": [
+      "free-api",
+      "agents",
+      "rag",
+      "search"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "1000 free searches per month",
+      "paid_starts_at": "$9/mo",
+      "pricing_url": "https://tavily.com/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.tavily.com",
+      "key_url": "https://app.tavily.com/home",
+      "base_url": "https://api.tavily.com",
+      "rate_limits": "1000 calls/month free",
+      "env_var_name": "TAVILY_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "tagline": "Run 100+ open-source models via one unified API",
+    "website": "https://together.ai",
+    "logo_url": "https://logo.clearbit.com/together.ai",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source-models",
+      "free-credits",
+      "api"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "$1 free credit on signup",
+      "paid_starts_at": "Pay-per-token",
+      "pricing_url": "https://together.ai/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.together.ai",
+      "key_url": "https://api.together.ai/settings/api-keys",
+      "base_url": "https://api.together.xyz/v1",
+      "rate_limits": "Rate limited by credits",
+      "env_var_name": "TOGETHER_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [
+      "groq-api"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "tagline": "AI music generator with high-quality output and free daily generations",
+    "website": "https://udio.com",
+    "logo_url": "https://logo.clearbit.com/udio.com",
+    "categories": [
+      "audio"
+    ],
+    "tags": [
+      "music-gen",
+      "free",
+      "trending"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "1200 free track generations per month",
+      "paid_starts_at": "$10/mo (Standard)",
+      "pricing_url": "https://udio.com/pricing"
+    },
+    "api": {
+      "available": false,
+      "docs_url": "",
+      "key_url": "",
+      "base_url": "",
+      "rate_limits": "",
+      "env_var_name": "",
+      "auth_method": ""
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "voyage-ai",
+    "name": "Voyage AI",
+    "tagline": "Best-in-class embedding models for retrieval — generous free API tier",
+    "website": "https://voyageai.com",
+    "logo_url": "https://logo.clearbit.com/voyageai.com",
+    "categories": [
+      "embeddings"
+    ],
+    "tags": [
+      "free-api",
+      "rag",
+      "semantic-search"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "200M free tokens per month on free tier",
+      "paid_starts_at": "Pay-per-token",
+      "pricing_url": "https://docs.voyageai.com/docs/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://docs.voyageai.com",
+      "key_url": "https://dash.voyageai.com/api-keys",
+      "base_url": "https://api.voyageai.com/v1",
+      "rate_limits": "200M tokens/month free",
+      "env_var_name": "VOYAGE_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "We built a multi",
+    "tagline": "agent research hub. The waitlist is a reverse-CAPTCHA",
+    "website": "https://enlidea.com",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "we-built-a-multi",
+    "logo_url": "https://logo.clearbit.com/enlidea.com",
+    "free_alternatives": []
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "tagline": "Open-source vector database with built-in ML models and free cloud tier",
+    "website": "https://weaviate.io",
+    "logo_url": "https://logo.clearbit.com/weaviate.io",
+    "categories": [
+      "embeddings"
+    ],
+    "tags": [
+      "open-source",
+      "vector-db",
+      "free",
+      "self-hosted"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free Sandbox cluster on Weaviate Cloud; self-host for free",
+      "paid_starts_at": "Usage-based on Weaviate Cloud",
+      "pricing_url": "https://weaviate.io/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://weaviate.io/developers/weaviate",
+      "key_url": "https://console.weaviate.cloud",
+      "base_url": "Your cluster URL",
+      "rate_limits": "Sandbox has limited resources",
+      "env_var_name": "WEAVIATE_API_KEY",
+      "auth_method": "Authorization"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "you-com",
+    "name": "You.com",
+    "tagline": "AI search and chat assistant with real-time web results",
+    "website": "https://you.com",
+    "logo_url": "https://logo.clearbit.com/you.com",
+    "categories": [
+      "search"
+    ],
+    "tags": [
+      "free",
+      "search",
+      "real-time"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Free AI search with web results",
+      "paid_starts_at": "$20/mo (Pro)",
+      "pricing_url": "https://you.com/plans"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://documentation.you.com",
+      "key_url": "https://api.you.com",
+      "base_url": "https://chat-api.you.com/smart",
+      "rate_limits": "60 RPM on paid",
+      "env_var_name": "YOU_API_KEY",
+      "auth_method": "X-API-Key"
     },
     "free_alternatives": [],
     "status": "active",

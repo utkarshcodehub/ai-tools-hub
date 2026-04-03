@@ -3,20 +3,20 @@ from typing import Optional, List
 
 
 class Pricing(BaseModel):
-    has_free_tier: bool
-    free_details: str
-    paid_starts_at: str
-    pricing_url: str
+    has_free_tier: bool = False
+    free_details: Optional[str] = None
+    paid_starts_at: Optional[str] = None
+    pricing_url: Optional[str] = None
 
 
 class ApiInfo(BaseModel):
-    available: bool
-    docs_url: Optional[str] = ""
-    key_url: Optional[str] = ""
-    base_url: Optional[str] = ""
-    rate_limits: Optional[str] = ""
-    env_var_name: Optional[str] = ""
-    auth_method: Optional[str] = ""
+    available: bool = False
+    docs_url: Optional[str] = None
+    key_url: Optional[str] = None
+    base_url: Optional[str] = None
+    rate_limits: Optional[str] = None
+    env_var_name: Optional[str] = None
+    auth_method: Optional[str] = None
 
 
 class Tool(BaseModel):
@@ -24,14 +24,14 @@ class Tool(BaseModel):
     name: str
     tagline: str
     website: str
-    logo_url: str
-    categories: List[str]
-    tags: List[str]
-    pricing: Pricing
-    api: ApiInfo
-    free_alternatives: List[str]
-    status: str
-    free_tier_verified_date: str
+    logo_url: Optional[str] = None
+    categories: List[str] = []
+    tags: List[str] = []
+    pricing: Pricing = Pricing()
+    api: ApiInfo = ApiInfo()
+    free_alternatives: List[str] = []
+    status: str = "active"
+    free_tier_verified_date: Optional[str] = None
 
 
 class Category(BaseModel):
