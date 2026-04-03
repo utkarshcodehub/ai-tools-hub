@@ -9,6 +9,35 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background-color: #192129;
+  background-color: #f9fafb;
   color: #111827;
+}
+
+/* Hide scrollbar on trending row but keep scroll working */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth transitions globally */
+a, button {
+  transition-property: color, background-color, border-color, opacity, box-shadow;
+  transition-timing-function: ease;
+  transition-duration: 150ms;
+}
+
+/* Prevent layout shift on images */
+img {
+  display: block;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

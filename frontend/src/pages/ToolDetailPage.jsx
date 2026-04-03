@@ -4,6 +4,7 @@ import { useFetch } from "../hooks/useTools";
 import ApiPanel from "../components/ApiPanel";
 import FreeAltCard from "../components/FreeAltCard";
 import { ToolCardSkeleton } from "../components/LoadingSkeleton";
+import SEOHead from '../components/SEOHead';
 
 export default function ToolDetailPage() {
   const { id } = useParams();
@@ -29,7 +30,11 @@ export default function ToolDetailPage() {
         </Link>
       </div>
     );
-
+  <SEOHead
+  title={tool.name}
+  description={tool.tagline}
+  path={`/tool/${tool.id}`}
+/>
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 flex flex-col gap-6">
       <Link
