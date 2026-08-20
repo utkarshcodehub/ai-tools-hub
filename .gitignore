@@ -9,6 +9,10 @@ venv/
 dist/
 build/
 
+# Local SQLite pipeline data (not read by the deployed API; data/tools.json is the source of truth)
+backend/data/*.db
+backend/cache/
+
 # Node / React
 node_modules/
 dist/

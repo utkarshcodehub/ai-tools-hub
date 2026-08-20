@@ -84,11 +84,12 @@ class HackerNewsMonitor:
         
         # Search for each AI keyword
         for keyword in self.AI_KEYWORDS[:5]:  # Limit to avoid too many requests
-            query = f'"Show HN" {keyword}'
-            
             params = {
-                "query": query,
-                "tags": "story",
+                "query": keyword,
+                # "show_hn" is Algolia's dedicated tag for genuine Show HN posts —
+                # searching free text for the phrase "Show HN" also matches stories
+                # that merely mention it, which produced garbage entries before.
+                "tags": "show_hn",
                 "numericFilters": f"points>={min_points},created_at_i>={self._days_ago_timestamp(days)}",
                 "hitsPerPage": 20,
             }
@@ -130,21 +131,26 @@ class HackerNewsMonitor:
             story_url = f"https://news.ycombinator.com/item?id={hit.get('objectID')}"
             url = story_url
         
-        # Extract tool name from title
-        # "Show HN: ToolName – Description" or "Show HN: ToolName - Description"
-        name_match = re.match(r'Show HN:\s*([^–\-:]+)', title)
-        if name_match:
-            name = name_match.group(1).strip()
-        else:
-            name = title[:50]
-        
-        # Extract description
-        description = title.replace('Show HN:', '').strip()
-        if '–' in description:
-            description = description.split('–', 1)[1].strip()
-        elif '-' in description:
-            description = description.split('-', 1)[1].strip()
-        
+        # Extract tool name from title. Require the literal "Show HN:" prefix —
+        # without it we can't reliably tell the product name from the rest of
+        # the sentence, so we skip the story instead of guessing (a truncated
+        # first-50-chars fallback here used to produce garbage names like
+        # "I trained a 125M model to autocomplete piano on").
+        prefix_match = re.match(r'^\s*Show HN:\s*(.+)$', title)
+        if not prefix_match:
+            return None
+        remainder = prefix_match.group(1).strip()
+
+        name_match = re.match(r'([^–\-:]+)', remainder)
+        name = name_match.group(1).strip() if name_match else remainder
+
+        if not self._looks_like_product_name(name):
+            logger.debug(f"Skipping suspicious HN title (not a product name): {title!r}")
+            return None
+
+        # Extract description (whatever follows the name)
+        description = remainder[len(name):].lstrip('–-: ').strip()
+
         return {
             'name': name,
             'tagline': description[:80] if description else f"{name} - AI tool",
@@ -157,7 +163,29 @@ class HackerNewsMonitor:
             '_points': hit.get('points', 0),
             '_hn_id': hit.get('objectID'),
         }
-    
+
+    # Sentence-like openers that indicate we've captured a description, not a name
+    _SENTENCE_STARTERS = (
+        'i ', 'a ', 'an ', 'we ', 'my ', 'our ', 'how ', 'why ', 'what ',
+        'building ', 'made ', 'built ', 'trained ', 'tested ',
+    )
+
+    def _looks_like_product_name(self, name: str) -> bool:
+        """
+        Cheap sanity check to reject descriptions mistaken for product names.
+
+        Real HN "Show HN" tool names are short (a handful of words). If the
+        extracted string reads like a sentence, it's almost certainly the
+        post's description rather than the actual product name.
+        """
+        if not name or len(name) > 60:
+            return False
+        if len(name.split()) > 8:
+            return False
+        if name.lower().startswith(self._SENTENCE_STARTERS):
+            return False
+        return True
+
     def _guess_categories(self, text: str) -> list[str]:
         """Guess categories based on text content."""
         text_lower = text.lower()

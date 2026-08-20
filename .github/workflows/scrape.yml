@@ -1,0 +1,46 @@
+name: Weekly Tool Discovery
+
+# Discovers new AI tools from Hacker News / GitHub and commits them to
+# data/tools.json, which triggers Render's existing auto-deploy on push.
+# This is what actually wires up the README's "Auto Data Collection"
+# feature end-to-end — previously nothing scheduled this in production.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  discover-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        working-directory: backend
+        run: pip install -r requirements-dev.txt
+
+      - name: Run monitors
+        working-directory: backend
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python run_monitors.py --days 7 --save
+
+      - name: Validate resulting data (same checks as CI)
+        working-directory: backend
+        run: pytest -q tests/test_data_integrity.py
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tools.json
+          git diff --cached --quiet && echo "No new tools discovered." || \
+            git commit -m "chore: weekly AI tool discovery" && git push

@@ -3,6 +3,15 @@ Scraper Scheduler
 =================
 Runs scrapers on a schedule to keep the database up-to-date.
 
+NOT DEPLOYED / LEGACY PATH: this writes to backend/data/tools.db (SQLite),
+but the live API (data_loader.py) only ever reads data/tools.json, and
+render.yaml doesn't run this anywhere. `job_export_json` syncs DB -> JSON
+once a day, but nothing commits/pushes that file, so it never reaches
+production. The actually-deployed discovery path is the
+.github/workflows/scrape.yml cron, which calls run_monitors.py directly
+against data/tools.json. Keep that in mind before relying on this script
+to update the live site — it currently only updates your local tools.db.
+
 SCHEDULE:
 - Every 6 hours: Check Hacker News for new AI tools
 - Every 12 hours: Check GitHub trending

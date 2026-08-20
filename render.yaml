@@ -12,4 +12,4 @@ services:
       - key: PYTHON_VERSION
         value: "3.11"
       - key: ALLOWED_ORIGINS
-        value: "https://ai-tools-hub.vercel.app,http://localhost:5173"
+        value: "https://ai-tools-hub-lilac-nu.vercel.app,https://ai-tools-hub.vercel.app,http://localhost:5173"

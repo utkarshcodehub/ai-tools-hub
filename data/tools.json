@@ -541,6 +541,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Deltix",
+    "tagline": "AI Driven Testing",
+    "website": "https://app.deltix.ai",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "deltix",
+    "logo_url": "https://logo.clearbit.com/app.deltix.ai",
+    "free_alternatives": []
+  },
+  {
     "name": "Dull",
     "tagline": "Instagram Without Reels, YouTube Without Shorts (iOS)",
     "website": "https://getdull.app",
@@ -570,6 +601,40 @@
     "id": "dull",
     "logo_url": "https://logo.clearbit.com/getdull.app",
     "free_alternatives": []
+  },
+  {
+    "id": "edge-tts",
+    "name": "Edge TTS",
+    "tagline": "Free unofficial wrapper for Microsoft Edge's neural text-to-speech voices",
+    "website": "https://github.com/rany2/edge-tts",
+    "logo_url": "https://logo.clearbit.com/microsoft.com",
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "tts",
+      "voice",
+      "open-source",
+      "free"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Completely free, no account or API key required",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": "https://github.com/rany2/edge-tts#readme",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": "Unofficial; subject to Microsoft's own limits",
+      "env_var_name": null,
+      "auth_method": "none"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2026-08-20"
   },
   {
     "id": "elevenlabs",
@@ -746,6 +811,38 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Frugal Tokens",
+    "tagline": "explore costs and usage across coding agents",
+    "website": "https://demo.frugaltokens.com/",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "frugal-tokens",
+    "logo_url": "https://logo.clearbit.com/demo.frugaltokens.com",
+    "free_alternatives": []
+  },
+  {
     "id": "gamma-app",
     "name": "Gamma",
     "tagline": "AI presentation and document builder — create polished decks from a prompt",
@@ -824,7 +921,8 @@
       "search",
       "agents",
       "speech",
-      "image"
+      "image",
+      "productivity"
     ],
     "tags": [
       "ide-plugin",
@@ -863,7 +961,10 @@
       "ai-orchestration",
       "awesome",
       "ai-projects",
-      "computer-science-project"
+      "computer-science-project",
+      "accelerometer",
+      "badminton",
+      "fitness-tracking"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -1057,7 +1158,9 @@
     "tags": [
       "free",
       "open-source",
-      "no-api-key"
+      "no-api-key",
+      "hacker-news",
+      "new-launch"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -1077,130 +1180,6 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
-  },
-  {
-    "name": "I built a frontpage for personal blogs",
-    "tagline": "I built a frontpage for personal blogs",
-    "website": "https://text.blogosphere.app/",
-    "categories": [
-      "llm"
-    ],
-    "tags": [
-      "hacker-news",
-      "new-launch"
-    ],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": null,
-      "paid_starts_at": null,
-      "pricing_url": null
-    },
-    "api": {
-      "available": false,
-      "docs_url": null,
-      "key_url": null,
-      "base_url": null,
-      "rate_limits": null,
-      "env_var_name": null,
-      "auth_method": null
-    },
-    "status": "active",
-    "id": "i-built-a-frontpage-for-personal-blogs",
-    "logo_url": "https://logo.clearbit.com/text.blogosphere.app",
-    "free_alternatives": []
-  },
-  {
-    "name": "I built an OS that is pure AI",
-    "tagline": "I built an OS that is pure AI",
-    "website": "https://pneuma.computer",
-    "categories": [
-      "llm"
-    ],
-    "tags": [
-      "hacker-news",
-      "new-launch"
-    ],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": null,
-      "paid_starts_at": null,
-      "pricing_url": null
-    },
-    "api": {
-      "available": false,
-      "docs_url": null,
-      "key_url": null,
-      "base_url": null,
-      "rate_limits": null,
-      "env_var_name": null,
-      "auth_method": null
-    },
-    "status": "active",
-    "id": "i-built-an-os-that-is-pure-ai",
-    "logo_url": "https://logo.clearbit.com/pneuma.computer",
-    "free_alternatives": []
-  },
-  {
-    "name": "I made a free list of 100 places to promote your SaaS",
-    "tagline": "I made a free list of 100 places to promote your SaaS",
-    "website": "https://launchdirectories.com",
-    "categories": [
-      "llm"
-    ],
-    "tags": [
-      "hacker-news",
-      "new-launch"
-    ],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": null,
-      "paid_starts_at": null,
-      "pricing_url": null
-    },
-    "api": {
-      "available": false,
-      "docs_url": null,
-      "key_url": null,
-      "base_url": null,
-      "rate_limits": null,
-      "env_var_name": null,
-      "auth_method": null
-    },
-    "status": "active",
-    "id": "i-made-a-free-list-of-100-places-to-promote-your-saas",
-    "logo_url": "https://logo.clearbit.com/launchdirectories.com",
-    "free_alternatives": []
-  },
-  {
-    "name": "I tested 15 free AI models at building real software on a $25/year VPS",
-    "tagline": "I tested 15 free AI models at building real software on a $25/year VPS",
-    "website": "https://georgelarson.me/writing/2026-04-03-25-dollar-ai-lab/",
-    "categories": [
-      "llm"
-    ],
-    "tags": [
-      "hacker-news",
-      "new-launch"
-    ],
-    "pricing": {
-      "has_free_tier": false,
-      "free_details": null,
-      "paid_starts_at": null,
-      "pricing_url": null
-    },
-    "api": {
-      "available": false,
-      "docs_url": null,
-      "key_url": null,
-      "base_url": null,
-      "rate_limits": null,
-      "env_var_name": null,
-      "auth_method": null
-    },
-    "status": "active",
-    "id": "i-tested-15-free-ai-models-at-building-real-software-on-a-25year-vps",
-    "logo_url": "https://logo.clearbit.com/georgelarson.me",
-    "free_alternatives": []
   },
   {
     "id": "ideogram",
@@ -1234,6 +1213,40 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Kimi K3 In C",
+    "tagline": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB o",
+    "website": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "avx2",
+      "c99",
+      "cpu-inference"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "kimi-k3-in-c",
+    "logo_url": "https://logo.clearbit.com/medium.com",
+    "free_alternatives": []
   },
   {
     "id": "langchain",
@@ -1378,6 +1391,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Mininote",
+    "tagline": "text note taking without tracking or lock-in",
+    "website": "https://mininote.ink/",
+    "categories": [
+      "productivity"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "mininote",
+    "logo_url": "https://logo.clearbit.com/mininote.ink",
+    "free_alternatives": []
+  },
+  {
     "id": "mistral-api",
     "name": "Mistral AI",
     "tagline": "European open-weight LLMs with strong coding and multilingual ability",
@@ -1410,6 +1454,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Mocktail",
+    "tagline": "Free, open-source mock API server with a built-in dashboard",
+    "website": "https://getmocktail.com/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "mocktail",
+    "logo_url": "https://logo.clearbit.com/getmocktail.com",
+    "free_alternatives": []
   },
   {
     "id": "n8n",
@@ -1549,6 +1624,42 @@
     ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "openai-tts",
+    "name": "OpenAI TTS",
+    "tagline": "Text-to-speech API with natural-sounding voices",
+    "website": "https://platform.openai.com/docs/guides/text-to-speech",
+    "logo_url": "https://logo.clearbit.com/openai.com",
+    "categories": [
+      "speech",
+      "audio"
+    ],
+    "tags": [
+      "tts",
+      "voice",
+      "api"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": "No standalone free tier; covered by OpenAI's platform trial credit",
+      "paid_starts_at": "Pay-per-character",
+      "pricing_url": "https://openai.com/api/pricing"
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://platform.openai.com/docs/guides/text-to-speech",
+      "key_url": "https://platform.openai.com/api-keys",
+      "base_url": "https://api.openai.com/v1/audio/speech",
+      "rate_limits": "Pay-per-use, tiered by account spend",
+      "env_var_name": "OPENAI_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [
+      "edge-tts"
+    ],
+    "status": "active",
+    "free_tier_verified_date": "2026-08-20"
   },
   {
     "id": "openrouter",
@@ -1898,6 +2009,68 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Shoehorn",
+    "tagline": "Quantize any model down to run on your machine",
+    "website": "https://notactuallytreyanastasio.github.io/shoehorn/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "shoehorn",
+    "logo_url": "https://logo.clearbit.com/notactuallytreyanastasio.github.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Sokoban AI Solver",
+    "tagline": "Sokoban AI Solver",
+    "website": "https://mkornreich.me/projects/sokoban/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "sokoban-ai-solver",
+    "logo_url": "https://logo.clearbit.com/mkornreich.me",
+    "free_alternatives": []
+  },
+  {
     "id": "sourcegraph-cody",
     "name": "Sourcegraph Cody",
     "tagline": "AI coding assistant with deep codebase context and multi-repo awareness",
@@ -2000,6 +2173,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Stackdome",
+    "tagline": "An open source self-hostable Railway alternative on K8s",
+    "website": "https://stackdome.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "stackdome",
+    "logo_url": "https://logo.clearbit.com/stackdome.com",
+    "free_alternatives": []
   },
   {
     "id": "suno-ai",
@@ -2141,6 +2345,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "ThoughtDAG",
+    "tagline": "An editable context graph for LLM conversations",
+    "website": "https://chenxiachan.github.io/thoughtdag/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "thoughtdag",
+    "logo_url": "https://logo.clearbit.com/chenxiachan.github.io",
+    "free_alternatives": []
   },
   {
     "id": "together-ai",
@@ -2308,6 +2543,40 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "id": "whisper-openai",
+    "name": "Whisper (OpenAI)",
+    "tagline": "Open-source speech-to-text model you can self-host for free",
+    "website": "https://github.com/openai/whisper",
+    "logo_url": "https://logo.clearbit.com/openai.com",
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "stt",
+      "transcription",
+      "open-source",
+      "self-hosted"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open-source model weights, free to self-host with no usage limits",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://platform.openai.com/docs/guides/speech-to-text",
+      "key_url": "https://platform.openai.com/api-keys",
+      "base_url": "https://api.openai.com/v1/audio/transcriptions",
+      "rate_limits": "Self-hosted: none. Hosted API: pay-per-minute",
+      "env_var_name": "OPENAI_API_KEY",
+      "auth_method": "Bearer"
+    },
+    "free_alternatives": [],
+    "status": "active",
+    "free_tier_verified_date": "2026-08-20"
   },
   {
     "id": "you-com",

@@ -15,6 +15,7 @@ WHY ENRICHMENT:
 
 import re
 import logging
+import uuid
 from typing import Optional
 from urllib.parse import urlparse, urljoin
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -48,7 +49,8 @@ class ToolEnricher:
             timeout=timeout,
             follow_redirects=True,
         )
-    
+        self._catchall_cache: dict[str, bool] = {}
+
     def enrich(self, tool: dict, skip_existing: bool = True) -> dict:
         """
         Enrich a single tool with additional data.
@@ -242,10 +244,33 @@ class ToolEnricher:
         
         return result
     
+    def _is_catchall_host(self, base_url: str) -> bool:
+        """
+        Check whether a host returns 200 for literally any path (common with
+        SPAs that serve index.html for unknown routes via client-side routing).
+
+        If it does, a 200 on '/docs' or similar proves nothing, so path-based
+        API detection must be skipped for that host. Result is cached per host
+        since enrichment probes several paths against the same domain.
+        """
+        if base_url in self._catchall_cache:
+            return self._catchall_cache[base_url]
+
+        probe_path = f"/__ath-nonexistent-check-{uuid.uuid4().hex[:12]}__"
+        is_catchall = False
+        try:
+            response = self.client.head(urljoin(base_url, probe_path))
+            is_catchall = response.status_code == 200
+        except httpx.RequestError:
+            is_catchall = False  # can't tell, don't block real detection on a network hiccup
+
+        self._catchall_cache[base_url] = is_catchall
+        return is_catchall
+
     def _detect_api(self, website: str) -> dict:
         """
         Try to find API documentation.
-        
+
         STRATEGY:
         1. Check common API doc paths
         2. Look for developer/docs subdomain
@@ -256,17 +281,21 @@ class ToolEnricher:
             'docs_url': None,
             'key_url': None,
         }
-        
+
         base_url = self._get_base_url(website)
         domain = urlparse(website).netloc
-        
+
+        if self._is_catchall_host(base_url):
+            logger.debug(f"Skipping path-based API detection for {domain}: catch-all routing")
+            return result
+
         # Common API documentation paths
         api_paths = [
             '/docs', '/api', '/developers', '/api-docs',
             '/documentation', '/api/docs', '/developer',
             '/reference', '/api-reference'
         ]
-        
+
         # Also try subdomains
         api_subdomains = [
             f"https://docs.{domain}",
@@ -274,7 +303,7 @@ class ToolEnricher:
             f"https://developer.{domain}",
             f"https://developers.{domain}",
         ]
-        
+
         # Check paths first
         for path in api_paths:
             url = urljoin(base_url, path)
@@ -287,10 +316,12 @@ class ToolEnricher:
                     break
             except httpx.RequestError:
                 continue
-        
+
         # If not found, try subdomains
         if not result['available']:
             for url in api_subdomains:
+                if self._is_catchall_host(self._get_base_url(url)):
+                    continue
                 try:
                     response = self.client.head(url)
                     if response.status_code == 200:
@@ -300,7 +331,7 @@ class ToolEnricher:
                         break
                 except httpx.RequestError:
                     continue
-        
+
         # Try to find API key signup page
         if result['available']:
             key_paths = ['/api-keys', '/keys', '/credentials', '/console', '/dashboard']

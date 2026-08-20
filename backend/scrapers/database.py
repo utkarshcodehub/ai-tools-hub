@@ -3,6 +3,12 @@ Database Layer
 ==============
 SQLite-based storage for AI tools with easy PostgreSQL migration path.
 
+NOT DEPLOYED / LEGACY PATH: the live API (backend/data_loader.py) reads
+data/tools.json directly and never touches this database. Only
+scheduler.py's cron jobs write here, and scheduler.py isn't run anywhere
+in production (see its module docstring). Treat this as a local/optional
+dev tool, not part of the deployed data pipeline.
+
 WHY DATABASE INSTEAD OF JSON:
 1. Better performance with 10,000+ tools
 2. Easy querying (filter by category, search by name)
