@@ -49,6 +49,23 @@ def save_tools(tools: list[dict], path: Path) -> None:
     logger.info(f"Saved {len(tools)} tools to {path}")
 
 
+def remove_dangling_free_alternatives(tools: list[dict]) -> int:
+    """Remove free_alternatives that reference missing tool ids."""
+    valid_ids = {tool.get('id') for tool in tools if tool.get('id')}
+    removed = 0
+
+    for tool in tools:
+        alts = tool.get('free_alternatives', [])
+        if not isinstance(alts, list):
+            continue
+
+        filtered = [alt for alt in alts if alt in valid_ids]
+        removed += len(alts) - len(filtered)
+        tool['free_alternatives'] = filtered
+
+    return removed
+
+
 def main():
     parser = argparse.ArgumentParser(description="Discover new AI tools")
     parser.add_argument('--days', type=int, default=7, help='Days to look back')
@@ -136,7 +153,10 @@ def main():
     # Save if requested
     if args.save and new_tools and not args.dry_run:
         all_tools = dedup.get_unique()
+        removed_refs = remove_dangling_free_alternatives(all_tools)
         all_tools.sort(key=lambda x: x.get('name', '').lower())
+        if removed_refs:
+            logger.info(f"Removed {removed_refs} dangling free_alternatives references")
         
         # Backup
         backup_path = data_dir / f"tools_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
