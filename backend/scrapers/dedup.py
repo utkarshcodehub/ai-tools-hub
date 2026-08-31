@@ -129,14 +129,22 @@ class DeduplicationEngine:
         self.duplicates_found = 0
         self.merges_performed = 0
     
-    def add(self, tool: dict) -> bool:
+    def add(self, tool: dict, check_duplicates: bool = True) -> bool:
         """
         Add a tool, checking for duplicates.
         
         Returns True if this was a new tool, False if it was merged with existing.
         """
-        # Check domain first (most reliable)
         domain = normalize_domain(tool.get('website', ''))
+
+        if not check_duplicates:
+            idx = len(self.tools)
+            self.tools.append(tool)
+            if domain and domain not in self.domain_index:
+                self.domain_index[domain] = idx
+            return True
+        
+        # Check domain first (most reliable)
         
         if domain and domain in self.domain_index:
             existing_idx = self.domain_index[domain]

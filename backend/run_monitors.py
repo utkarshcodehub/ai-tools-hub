@@ -113,7 +113,7 @@ def main():
     
     dedup = DeduplicationEngine()
     for tool in existing_tools:
-        dedup.add(tool)
+        dedup.add(tool, check_duplicates=False)
     
     new_tools = []
     for tool in valid_tools:
