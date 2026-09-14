@@ -268,6 +268,40 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Auk",
+    "tagline": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
+    "website": "https://auk-project.github.io/",
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "deep-learning",
+      "foundation-models",
+      "python"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Tencent-Hunyuan/AuK/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "auk",
+    "logo_url": "https://logo.clearbit.com/auk-project.github.io",
+    "free_alternatives": []
+  },
+  {
     "name": "Awesome Ai Scientist",
     "tagline": "🧪 Awesome list of AI Scientist papers, systems, benchmarks, datasets and open-so",
     "website": "https://omni-scientist.github.io/",
@@ -332,6 +366,68 @@
     "status": "active",
     "id": "baton",
     "logo_url": "https://logo.clearbit.com/getbaton.dev",
+    "free_alternatives": []
+  },
+  {
+    "name": "Biff 2.0 (Clojure web framework)",
+    "tagline": "Biff 2.0 (Clojure web framework) - AI tool",
+    "website": "https://biffweb.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "biff-20-clojure-web-framework",
+    "logo_url": "https://logo.clearbit.com/biffweb.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Bodily Oddities",
+    "tagline": "Bodily Oddities - AI tool",
+    "website": "https://vester.si/bodily-oddities/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "bodily-oddities",
+    "logo_url": "https://logo.clearbit.com/vester.si",
     "free_alternatives": []
   },
   {
@@ -771,6 +867,37 @@
     "free_alternatives": []
   },
   {
+    "name": "DOOM in the kernel, or fibers in eBPF",
+    "tagline": "DOOM in the kernel, or fibers in eBPF - AI tool",
+    "website": "https://ayles.github.io/doom-in-kernel/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "doom-in-the-kernel-or-fibers-in-ebpf",
+    "logo_url": "https://logo.clearbit.com/ayles.github.io",
+    "free_alternatives": []
+  },
+  {
     "name": "Dull",
     "tagline": "Instagram Without Reels, YouTube Without Shorts (iOS)",
     "website": "https://getdull.app",
@@ -834,7 +961,9 @@
       "go",
       "deep-learning",
       "diffusion-models",
-      "protein-design"
+      "protein-design",
+      "1b",
+      "ai"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -1362,6 +1491,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Hacker News, without AI",
+    "tagline": "Hacker News, without AI - AI tool",
+    "website": "https://hcker.news/?ai=exclude",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "hacker-news-without-ai",
+    "logo_url": "https://logo.clearbit.com/hcker.news",
+    "free_alternatives": []
+  },
+  {
     "id": "heygen",
     "name": "HeyGen",
     "tagline": "AI video generation with talking avatars — create presenter videos from text",
@@ -1634,6 +1794,37 @@
     "free_alternatives": []
   },
   {
+    "name": "LLM Attention Visualization",
+    "tagline": "LLM Attention Visualization - AI tool",
+    "website": "https://ishamf.dev/p/llm-attention-visualizer/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "llm-attention-visualization",
+    "logo_url": "https://logo.clearbit.com/ishamf.dev",
+    "free_alternatives": []
+  },
+  {
     "name": "Markdown Viewer and Editor",
     "tagline": "Markdown Viewer and Editor - AI tool",
     "website": "https://kingsbridge-consultancy.com/md-viewer/",
@@ -1859,6 +2050,37 @@
     "status": "active",
     "id": "mocktail",
     "logo_url": "https://logo.clearbit.com/getmocktail.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "MultiMatte, a Promptable Image Background Removal Model",
+    "tagline": "MultiMatte, a Promptable Image Background Removal Model - AI tool",
+    "website": "https://usefeyn.com/blog/multimatte/",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "multimatte-a-promptable-image-background-removal-model",
+    "logo_url": "https://logo.clearbit.com/usefeyn.com",
     "free_alternatives": []
   },
   {
@@ -2097,6 +2319,42 @@
     ],
     "status": "active",
     "free_tier_verified_date": "2026-08-20"
+  },
+  {
+    "name": "Openflow",
+    "tagline": "OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode",
+    "website": "https://www.reddit.com/r/OpenFlowAI/",
+    "categories": [
+      "llm",
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agent-orchestration",
+      "ai",
+      "ai-agents"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/SeeRay11/OpenFlow/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "openflow",
+    "logo_url": "https://logo.clearbit.com/www.reddit.com",
+    "free_alternatives": []
   },
   {
     "id": "openrouter",
@@ -2338,6 +2596,37 @@
     ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Rdltr",
+    "tagline": "Inbox zero for your reading list",
+    "website": "https://rdltr.app/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "rdltr",
+    "logo_url": "https://logo.clearbit.com/rdltr.app",
+    "free_alternatives": []
   },
   {
     "name": "Reactor Atlas",
@@ -2774,6 +3063,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Syq",
+    "tagline": "copy files between machines fast (better than rsync)",
+    "website": "https://greaber.github.io/syq/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "syq",
+    "logo_url": "https://logo.clearbit.com/greaber.github.io",
+    "free_alternatives": []
+  },
+  {
     "id": "tabnine",
     "name": "Tabnine",
     "tagline": "AI code completion that can run locally for privacy-first teams",
@@ -3073,6 +3393,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Vertumnus",
+    "tagline": "printable posters of farmers' market produce seasonality",
+    "website": "https://vertumnus.fyi",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "vertumnus",
+    "logo_url": "https://logo.clearbit.com/vertumnus.fyi",
+    "free_alternatives": []
   },
   {
     "name": "VODForge",
