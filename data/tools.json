@@ -95,6 +95,37 @@
     "free_alternatives": []
   },
   {
+    "name": "Aclif",
+    "tagline": "Agent CLI framework: one grammar, canonical names across SaaS",
+    "website": "https://www.aclif.ai/",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "aclif",
+    "logo_url": "https://logo.clearbit.com/www.aclif.ai",
+    "free_alternatives": []
+  },
+  {
     "name": "Ai Engineering From Scratch",
     "tagline": "Learn it. Build it. Ship it for others.",
     "website": "https://aiengineeringfromscratch.com",
@@ -268,6 +299,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "AttaLambda",
+    "tagline": "a language where types and data are made of untyped lambdas",
+    "website": "https://attalambda.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "attalambda",
+    "logo_url": "https://logo.clearbit.com/attalambda.com",
+    "free_alternatives": []
+  },
+  {
     "name": "Auk",
     "tagline": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
     "website": "https://auk-project.github.io/",
@@ -335,6 +397,72 @@
     "status": "active",
     "id": "awesome-ai-scientist",
     "logo_url": "https://logo.clearbit.com/omni-scientist.github.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Awesome Typesafe Jev",
+    "tagline": "A curated list of official resources and community projects for TypeSafe, System",
+    "website": "https://abdelstark.github.io/awesome-typesafe-jev/",
+    "categories": [
+      "llm",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai-agents",
+      "awesome-list",
+      "jev"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/AbdelStark/awesome-typesafe-jev/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "awesome-typesafe-jev",
+    "logo_url": "https://logo.clearbit.com/abdelstark.github.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Ax",
+    "tagline": "check.com – Can agents use your product?",
+    "website": "https://www.ax-check.com/",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "ax",
+    "logo_url": "https://logo.clearbit.com/www.ax-check.com",
     "free_alternatives": []
   },
   {
@@ -524,6 +652,68 @@
     "free_alternatives": []
   },
   {
+    "name": "Cactus Needle 3",
+    "tagline": "8-29MB automation models can match DeepSeek V4 Flash",
+    "website": "https://cactuscompute.com/needle",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "cactus-needle-3",
+    "logo_url": "https://logo.clearbit.com/cactuscompute.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Capsule",
+    "tagline": "Single-file web apps that save their data into SQLite",
+    "website": "https://withcapsule.app/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "capsule",
+    "logo_url": "https://logo.clearbit.com/withcapsule.app",
+    "free_alternatives": []
+  },
+  {
     "id": "anthropic-claude",
     "name": "Claude",
     "tagline": "Anthropic's AI assistant focused on safety and long-context reasoning",
@@ -695,6 +885,37 @@
     "status": "active",
     "id": "corporate-mind-games",
     "logo_url": "https://logo.clearbit.com/corporatemindgames.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Craigslist for agent skills, curated by a human",
+    "tagline": "Craigslist for agent skills, curated by a human - AI tool",
+    "website": "https://skillbay.sh/",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "craigslist-for-agent-skills-curated-by-a-human",
+    "logo_url": "https://logo.clearbit.com/skillbay.sh",
     "free_alternatives": []
   },
   {
@@ -963,7 +1184,12 @@
       "diffusion-models",
       "protein-design",
       "1b",
-      "ai"
+      "ai",
+      "decision-model",
+      "jev",
+      "academic-writing",
+      "claude-code",
+      "codex-skills"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -1725,6 +1951,40 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Laya Mlx",
+    "tagline": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M",
+    "website": "https://pypi.org/project/laya-mlx/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "apple-silicon",
+      "decision-model",
+      "inference"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/mizorewww/laya-mlx/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "laya-mlx",
+    "logo_url": "https://logo.clearbit.com/pypi.org",
+    "free_alternatives": []
+  },
+  {
     "id": "leonardo-ai",
     "name": "Leonardo.AI",
     "tagline": "AI image platform with fine-tuned models for game art, portraits, and design",
@@ -1822,6 +2082,37 @@
     "status": "active",
     "id": "llm-attention-visualization",
     "logo_url": "https://logo.clearbit.com/ishamf.dev",
+    "free_alternatives": []
+  },
+  {
+    "name": "Loss. a tiny satire about AI progress",
+    "tagline": "Loss. a tiny satire about AI progress - AI tool",
+    "website": "https://workatloss.com/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "loss-a-tiny-satire-about-ai-progress",
+    "logo_url": "https://logo.clearbit.com/workatloss.com",
     "free_alternatives": []
   },
   {
@@ -2118,6 +2409,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Nari Qwen3",
+    "tagline": "TTS and Qwen3-ASR – High accuracy, low latency and cost",
+    "website": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
+    "categories": [
+      "speech"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "nari-qwen3",
+    "logo_url": "https://logo.clearbit.com/narilabs.com",
+    "free_alternatives": []
+  },
+  {
     "name": "Newton's Orchard",
     "tagline": "Browser-based space/gravity playground",
     "website": "https://newtonsorchard.app",
@@ -2357,6 +2679,41 @@
     "free_alternatives": []
   },
   {
+    "name": "Openjev Verdict 2.0",
+    "tagline": "Calibrated 151M Non-Autoregressive Decision Engine beating TypeSafe Jev & Laya o",
+    "website": "https://heman10x-ngu.github.io/openJev-verdict-2.0/",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agentic-ai",
+      "brier-score",
+      "calibration"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Heman10x-NGU/openJev-verdict-2.0/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "openjev-verdict-20",
+    "logo_url": "https://logo.clearbit.com/heman10x-ngu.github.io",
+    "free_alternatives": []
+  },
+  {
     "id": "openrouter",
     "name": "OpenRouter",
     "tagline": "Single API to access 200+ models from OpenAI, Anthropic, Google, and more",
@@ -2424,6 +2781,37 @@
     ],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Pelican",
+    "tagline": "bicycle alternatives",
+    "website": "https://gally.net/temp/20260914pelican-alternatives/index.html",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "pelican",
+    "logo_url": "https://logo.clearbit.com/gally.net",
+    "free_alternatives": []
   },
   {
     "id": "perplexity-ai",
@@ -2598,6 +2986,68 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Pushie",
+    "tagline": "Get notified with a simple webhook",
+    "website": "https://pushie.net",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "pushie",
+    "logo_url": "https://logo.clearbit.com/pushie.net",
+    "free_alternatives": []
+  },
+  {
+    "name": "Radius",
+    "tagline": "A Meetup.com Alternative",
+    "website": "https://radius.to/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "radius",
+    "logo_url": "https://logo.clearbit.com/radius.to",
+    "free_alternatives": []
+  },
+  {
     "name": "Rdltr",
     "tagline": "Inbox zero for your reading list",
     "website": "https://rdltr.app/",
@@ -2730,6 +3180,68 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Restarted",
+    "tagline": "a 2026 remake of the classic 2015 startup generator",
+    "website": "https://restarted.io/",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "restarted",
+    "logo_url": "https://logo.clearbit.com/restarted.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Rickub",
+    "tagline": "The Smartest Git in the Universe",
+    "website": "https://rickub.com/",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "rickub",
+    "logo_url": "https://logo.clearbit.com/rickub.com",
+    "free_alternatives": []
+  },
+  {
     "id": "runway-ml",
     "name": "Runway",
     "tagline": "Professional AI video generation and editing platform used in film production",
@@ -2766,6 +3278,68 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Scry, programmable internet search w/ congestion pricing",
+    "tagline": "Scry, programmable internet search w/ congestion pricing - AI tool",
+    "website": "https://scry.io/",
+    "categories": [
+      "search"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "scry-programmable-internet-search-w-congestion-pricing",
+    "logo_url": "https://logo.clearbit.com/scry.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "SeasonMap",
+    "tagline": "when to travel where? visualized with climate data",
+    "website": "https://seasonmap.app",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "seasonmap",
+    "logo_url": "https://logo.clearbit.com/seasonmap.app",
+    "free_alternatives": []
+  },
+  {
     "name": "See how much your AI knows about you",
     "tagline": "See how much your AI knows about you - AI tool",
     "website": "https://www.withcorpus.com/knows",
@@ -2797,6 +3371,37 @@
     "free_alternatives": []
   },
   {
+    "name": "Share your AI Setup, Learn from others",
+    "tagline": "Share your AI Setup, Learn from others - AI tool",
+    "website": "https://mysetup.ai/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "share-your-ai-setup-learn-from-others",
+    "logo_url": "https://logo.clearbit.com/mysetup.ai",
+    "free_alternatives": []
+  },
+  {
     "name": "Shoehorn",
     "tagline": "Quantize any model down to run on your machine",
     "website": "https://notactuallytreyanastasio.github.io/shoehorn/",
@@ -2825,6 +3430,37 @@
     "status": "active",
     "id": "shoehorn",
     "logo_url": "https://logo.clearbit.com/notactuallytreyanastasio.github.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Sigabrt.dev",
+    "tagline": "cronjob monitor with an SSH TUI",
+    "website": "https://sigabrt.dev",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "sigabrtdev",
+    "logo_url": "https://logo.clearbit.com/sigabrt.dev",
     "free_alternatives": []
   },
   {
@@ -2991,6 +3627,37 @@
     "status": "active",
     "id": "stackdome",
     "logo_url": "https://logo.clearbit.com/stackdome.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Sunk Cost",
+    "tagline": "How long until a local LLM rig pays for itself?",
+    "website": "https://sunkcost.ai/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "sunk-cost",
+    "logo_url": "https://logo.clearbit.com/sunkcost.ai",
     "free_alternatives": []
   },
   {
@@ -3328,6 +3995,40 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Topconf Paper Figure Gallery",
+    "tagline": "A searchable gallery of well-designed Figure 1 / teaser figures from ICLR, ICML,",
+    "website": "https://qwdwqfwq.github.io/topconf-paper-figure-gallery/",
+    "categories": [
+      "search"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "aaai",
+      "academic-writing",
+      "acl"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/qwdwqfwq/topconf-paper-figure-gallery/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "topconf-paper-figure-gallery",
+    "logo_url": "https://logo.clearbit.com/qwdwqfwq.github.io",
+    "free_alternatives": []
+  },
+  {
     "name": "Trentorch",
     "tagline": "Learn PyTorch by building your own. (inspired from Harvard's TinyTorch)",
     "website": "https://trentorch.vercel.app",
@@ -3393,6 +4094,40 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Unbagrnd",
+    "tagline": "Unbagrnd - Free, Fast & Open-source AI-powered background remover for Windows, m",
+    "website": "https://zidniryi.space/unbagrnd/",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai",
+      "ai-tools",
+      "background-removal"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/zidniryi/unbagrnd/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "unbagrnd",
+    "logo_url": "https://logo.clearbit.com/zidniryi.space",
+    "free_alternatives": []
   },
   {
     "name": "Vertumnus",
