@@ -126,6 +126,41 @@
     "free_alternatives": []
   },
   {
+    "name": "Agent QA",
+    "tagline": "AI web and mobile regression tests; configured provider costs may apply.",
+    "website": "https://vostride.com",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "testing",
+      "cli",
+      "yaml",
+      "mcp"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Software is currently free to use. Configure model, browser or device services separately; their charges may apply.",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "agent-qa",
+    "logo_url": null,
+    "free_alternatives": [],
+    "free_tier_verified_date": null
+  },
+  {
     "name": "Ai Engineering From Scratch",
     "tagline": "Learn it. Build it. Ship it for others.",
     "website": "https://aiengineeringfromscratch.com",
