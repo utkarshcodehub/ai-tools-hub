@@ -126,6 +126,37 @@
     "free_alternatives": []
   },
   {
+    "name": "ADRs for AI",
+    "tagline": "Deliberation records for human–AI work, versioned in Git",
+    "website": "https://adrs.systems",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "adrs-for-ai",
+    "logo_url": "https://logo.clearbit.com/adrs.systems",
+    "free_alternatives": []
+  },
+  {
     "name": "Agent.reviews",
     "tagline": "Where AI agents read and write reviews on tools",
     "website": "https://agent.reviews/",
@@ -154,6 +185,37 @@
     "status": "active",
     "id": "agentreviews",
     "logo_url": "https://logo.clearbit.com/agent.reviews",
+    "free_alternatives": []
+  },
+  {
+    "name": "AI",
+    "tagline": "built browser games, collected in one place",
+    "website": "https://playgroundarcade.com/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "ai",
+    "logo_url": "https://logo.clearbit.com/playgroundarcade.com",
     "free_alternatives": []
   },
   {
@@ -264,6 +326,41 @@
     "free_alternatives": []
   },
   {
+    "name": "Ai Research Guide",
+    "tagline": "AI 科研入门指南：大学选择、科研 60 问、入门项目、学习路线与论文卡片。A bilingual guide to getting started in AI",
+    "website": "https://takamatsu-hikaru.github.io/AI-Research-Guide/",
+    "categories": [
+      "code",
+      "search"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai",
+      "chinese",
+      "education"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Takamatsu-Hikaru/AI-Research-Guide/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "ai-research-guide",
+    "logo_url": "https://logo.clearbit.com/takamatsu-hikaru.github.io",
+    "free_alternatives": []
+  },
+  {
     "id": "aider",
     "name": "Aider",
     "tagline": "Open-source AI pair programmer that edits code in your local git repo via CLI",
@@ -296,6 +393,42 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Ailearningguide",
+    "tagline": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG",
+    "website": "https://fazmin.github.io/AILearningGuide",
+    "categories": [
+      "llm",
+      "search",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai",
+      "ai-education",
+      "deep-learning"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Fazmin/AILearningGuide/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "ailearningguide",
+    "logo_url": "https://logo.clearbit.com/fazmin.github.io",
+    "free_alternatives": []
   },
   {
     "name": "Air",
@@ -490,6 +623,37 @@
     "status": "active",
     "id": "auk",
     "logo_url": "https://logo.clearbit.com/auk-project.github.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Autonomous root for Tcl Android TV via CVE",
+    "tagline": "2022-22706",
+    "website": "https://gitlab.com/c4psu13/mali-pagecache-root",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "autonomous-root-for-tcl-android-tv-via-cve",
+    "logo_url": "https://logo.clearbit.com/gitlab.com",
     "free_alternatives": []
   },
   {
@@ -1133,6 +1297,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Corgi, a helpful {agent, terminal} multiplexer",
+    "tagline": "Corgi, a helpful {agent, terminal} multiplexer - AI tool",
+    "website": "https://corgi.computer/",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "corgi-a-helpful-agent-terminal-multiplexer",
+    "logo_url": "https://logo.clearbit.com/corgi.computer",
+    "free_alternatives": []
+  },
+  {
     "name": "Corporate Mind Games",
     "tagline": "logic puzzles with a sarcastic corporate theme",
     "website": "https://corporatemindgames.com/",
@@ -1297,6 +1492,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Death Plan Switch, a self",
+    "tagline": "hosted dead man's switch for solo devs",
+    "website": "https://deathplanswitch.com/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "death-plan-switch-a-self",
+    "logo_url": "https://logo.clearbit.com/deathplanswitch.com",
+    "free_alternatives": []
+  },
+  {
     "id": "deepgram",
     "name": "Deepgram",
     "tagline": "Fast, accurate speech-to-text API with speaker diarization and live streaming",
@@ -1423,6 +1649,37 @@
     "status": "active",
     "id": "doom-or-bloom-map-your-ai-worldview",
     "logo_url": "https://logo.clearbit.com/www.doom-or-bloom.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Dovepass",
+    "tagline": "can I legally fly a drone along this exact path in SF?",
+    "website": "https://dovepass.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "dovepass",
+    "logo_url": "https://logo.clearbit.com/dovepass.com",
     "free_alternatives": []
   },
   {
@@ -1824,6 +2081,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Freehire, open",
+    "tagline": "source search 3M+ tech jobs from company career boards",
+    "website": "https://freehire.me/",
+    "categories": [
+      "search"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "freehire-open",
+    "logo_url": "https://logo.clearbit.com/freehire.me",
+    "free_alternatives": []
   },
   {
     "name": "Frugal Tokens",
@@ -2417,7 +2705,8 @@
     "website": "https://huggingface.co/chat",
     "logo_url": "https://logo.clearbit.com/huggingface.co",
     "categories": [
-      "llm"
+      "llm",
+      "speech"
     ],
     "tags": [
       "free",
@@ -2965,6 +3254,41 @@
     "status": "active",
     "id": "llmspeed",
     "logo_url": "https://logo.clearbit.com/llmspeed.dev",
+    "free_alternatives": []
+  },
+  {
+    "name": "Locals",
+    "tagline": "Run many AI agents at once on your Mac, up to 3x faster.",
+    "website": "https://generatedcomputers.com",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agents",
+      "apple-silicon",
+      "artificial-intelligence"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Generated-Computers/Locals/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "locals",
+    "logo_url": "https://logo.clearbit.com/generatedcomputers.com",
     "free_alternatives": []
   },
   {
@@ -3581,6 +3905,42 @@
     "status": "active",
     "id": "offrun",
     "logo_url": "https://logo.clearbit.com/offrun.dev",
+    "free_alternatives": []
+  },
+  {
+    "name": "Opal",
+    "tagline": "OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your mod",
+    "website": "https://xingjianbai.com/reactive-optimizers/",
+    "categories": [
+      "llm",
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "deep-learning",
+      "llm-agents",
+      "optimizer"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/xingjian-bai/opal/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "opal",
+    "logo_url": "https://logo.clearbit.com/xingjianbai.com",
     "free_alternatives": []
   },
   {
@@ -4305,6 +4665,37 @@
     "free_alternatives": []
   },
   {
+    "name": "Qwen3",
+    "tagline": "4B with the AI writing tics trained out",
+    "website": "https://100toolkit.com/blog/deslop-model/",
+    "categories": [
+      "productivity"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "qwen3",
+    "logo_url": "https://logo.clearbit.com/100toolkit.com",
+    "free_alternatives": []
+  },
+  {
     "name": "Radius",
     "tagline": "A Meetup.com Alternative",
     "website": "https://radius.to/",
@@ -4589,6 +4980,37 @@
     "status": "active",
     "id": "rickub",
     "logo_url": "https://logo.clearbit.com/rickub.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Rouler",
+    "tagline": "Steer Windows traffic per app or IP across multiple interfaces",
+    "website": "https://rouler.io/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "rouler",
+    "logo_url": "https://logo.clearbit.com/rouler.io",
     "free_alternatives": []
   },
   {
@@ -5277,6 +5699,37 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Swurf",
+    "tagline": "Swipe through the real web",
+    "website": "https://swurf.org/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "swurf",
+    "logo_url": "https://logo.clearbit.com/swurf.org",
+    "free_alternatives": []
+  },
+  {
     "name": "Syq",
     "tagline": "copy files between machines fast (better than rsync)",
     "website": "https://greaber.github.io/syq/",
@@ -5703,6 +6156,37 @@
     "free_alternatives": []
   },
   {
+    "name": "Uberblok",
+    "tagline": "an interactive museum of ZFS internals",
+    "website": "https://uberblok.storagebits.workers.dev/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "uberblok",
+    "logo_url": "https://logo.clearbit.com/uberblok.storagebits.workers.dev",
+    "free_alternatives": []
+  },
+  {
     "id": "udio",
     "name": "Udio",
     "tagline": "AI music generator with high-quality output and free daily generations",
@@ -5734,6 +6218,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "UI micro interactions prompts for AI",
+    "tagline": "UI micro interactions prompts for AI - AI tool",
+    "website": "https://www.typeui.sh/micro-interactions",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "ui-micro-interactions-prompts-for-ai",
+    "logo_url": "https://logo.clearbit.com/www.typeui.sh",
+    "free_alternatives": []
   },
   {
     "name": "Unbagrnd",
