@@ -899,6 +899,37 @@
     "free_alternatives": []
   },
   {
+    "name": "BBRouter",
+    "tagline": "Ben Eater's 8-bit computer, simulated on 3D breadboards",
+    "website": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "bbrouter",
+    "logo_url": "https://logo.clearbit.com/bbrouter.com",
+    "free_alternatives": []
+  },
+  {
     "name": "Biff 2.0 (Clojure web framework)",
     "tagline": "Biff 2.0 (Clojure web framework) - AI tool",
     "website": "https://biffweb.com",
@@ -1791,7 +1822,15 @@
       "ai-infrastructure",
       "backtesting",
       "data-provenance",
-      "ai-education"
+      "ai-education",
+      "agentic-ai",
+      "agentic-coding",
+      "ai-coding",
+      "artificial-intelligence",
+      "cisa-kev",
+      "cve",
+      "agentic-robotics",
+      "embodied-intelligence"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -2567,6 +2606,37 @@
     "status": "active",
     "id": "hacker-news-without-ai",
     "logo_url": "https://logo.clearbit.com/hcker.news",
+    "free_alternatives": []
+  },
+  {
+    "name": "HackerBooks",
+    "tagline": "HackerTube, but for books mentioned on HN",
+    "website": "https://hackerbooks.org",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "hackerbooks",
+    "logo_url": "https://logo.clearbit.com/hackerbooks.org",
     "free_alternatives": []
   },
   {
@@ -3678,6 +3748,40 @@
     "free_tier_verified_date": "2025-01-01"
   },
   {
+    "name": "Namigpt",
+    "tagline": "零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTor",
+    "website": "https://namiai.tech/articles/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "attention",
+      "chinese",
+      "deep-learning"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/aa1143/NamiGPT/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "namigpt",
+    "logo_url": "https://logo.clearbit.com/namiai.tech",
+    "free_alternatives": []
+  },
+  {
     "name": "Nari Qwen3",
     "tagline": "TTS and Qwen3-ASR – High accuracy, low latency and cost",
     "website": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
@@ -3706,6 +3810,37 @@
     "status": "active",
     "id": "nari-qwen3",
     "logo_url": "https://logo.clearbit.com/narilabs.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "NES Contra (1987) port (ASM",
+    "tagline": "> C and then C –> WebAssembly)",
+    "website": "https://epoyraz.github.io/nes-contra-us/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "nes-contra-1987-port-asm",
+    "logo_url": "https://logo.clearbit.com/epoyraz.github.io",
     "free_alternatives": []
   },
   {
@@ -3771,6 +3906,41 @@
     "status": "active",
     "id": "nextis-aira-3d",
     "logo_url": "https://logo.clearbit.com/www.nextis.tech",
+    "free_alternatives": []
+  },
+  {
+    "name": "Nexttransformer",
+    "tagline": ":sunrise: A comprehensive, cutting-edge open-source framework for next-generatio",
+    "website": "https://interactive-active-ai.github.io/NextTransformer/",
+    "categories": [
+      "llm",
+      "search"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "auto-research",
+      "benchmark",
+      "deep-learning"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Interactive-Active-AI/NextTransformer/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "nexttransformer",
+    "logo_url": "https://logo.clearbit.com/interactive-active-ai.github.io",
     "free_alternatives": []
   },
   {
@@ -5304,6 +5474,37 @@
     "free_alternatives": []
   },
   {
+    "name": "Sketch Stadium",
+    "tagline": "watch your agent play Pictionary",
+    "website": "https://sketch.wakeshift.ai/games/q5ucru",
+    "categories": [
+      "agents"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "sketch-stadium",
+    "logo_url": "https://logo.clearbit.com/sketch.wakeshift.ai",
+    "free_alternatives": []
+  },
+  {
     "name": "Sokoban AI Solver",
     "tagline": "Sokoban AI Solver",
     "website": "https://mkornreich.me/projects/sokoban/",
@@ -6604,6 +6805,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2026-08-20"
+  },
+  {
+    "name": "Wikihack",
+    "tagline": "HackerTube, but for Wikipedia articles mentioned on HN",
+    "website": "https://wikihack.netlify.app",
+    "categories": [
+      "image"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "wikihack",
+    "logo_url": "https://logo.clearbit.com/wikihack.netlify.app",
+    "free_alternatives": []
   },
   {
     "name": "Wonderhop",
