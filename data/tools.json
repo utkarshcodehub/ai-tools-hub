@@ -157,6 +157,37 @@
     "free_alternatives": []
   },
   {
+    "name": "After a decade of reversing, I got co",
+    "tagline": "op working in DOS Wing Commander",
+    "website": "https://fireflyk64.github.io/wcmulti/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "after-a-decade-of-reversing-i-got-co",
+    "logo_url": "https://logo.clearbit.com/fireflyk64.github.io",
+    "free_alternatives": []
+  },
+  {
     "name": "Agent.reviews",
     "tagline": "Where AI agents read and write reviews on tools",
     "website": "https://agent.reviews/",
@@ -927,6 +958,37 @@
     "status": "active",
     "id": "bbrouter",
     "logo_url": "https://logo.clearbit.com/bbrouter.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Bema",
+    "tagline": "Work messaging built for humans",
+    "website": "https://getbema.app/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "bema",
+    "logo_url": "https://logo.clearbit.com/getbema.app",
     "free_alternatives": []
   },
   {
@@ -1830,7 +1892,12 @@
       "cisa-kev",
       "cve",
       "agentic-robotics",
-      "embodied-intelligence"
+      "embodied-intelligence",
+      "assembly",
+      "bootsector",
+      "demoscene",
+      "attention-mechanism",
+      "educational"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -2021,6 +2088,37 @@
     "free_alternatives": [],
     "status": "active",
     "free_tier_verified_date": "2025-01-01"
+  },
+  {
+    "name": "Firenook",
+    "tagline": "Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+    "website": "https://firenook.dev/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "firenook",
+    "logo_url": "https://logo.clearbit.com/firenook.dev",
+    "free_alternatives": []
   },
   {
     "name": "Flexray",
@@ -2637,6 +2735,38 @@
     "status": "active",
     "id": "hackerbooks",
     "logo_url": "https://logo.clearbit.com/hackerbooks.org",
+    "free_alternatives": []
+  },
+  {
+    "name": "HackerTV",
+    "tagline": "HN's most-recommended Youtube videos as 24/7 TV channels",
+    "website": "https://hackertv.org",
+    "categories": [
+      "code",
+      "video"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "hackertv",
+    "logo_url": "https://logo.clearbit.com/hackertv.org",
     "free_alternatives": []
   },
   {
@@ -3327,6 +3457,42 @@
     "free_alternatives": []
   },
   {
+    "name": "Local Code Community",
+    "tagline": "Source code of Local Code, a private AI agent for Mac, iPad and iPhone. Runs De",
+    "website": "https://getlocalcode.app",
+    "categories": [
+      "llm",
+      "code",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai",
+      "ai-agent",
+      "apple-silicon"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/drawthingsai/local-code-community/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "local-code-community",
+    "logo_url": "https://logo.clearbit.com/getlocalcode.app",
+    "free_alternatives": []
+  },
+  {
     "name": "Locals",
     "tagline": "Run many AI agents at once on your Mac, up to 3x faster.",
     "website": "https://generatedcomputers.com",
@@ -3515,6 +3681,43 @@
     "status": "active",
     "id": "mescript-music-programming-language-inspired-by-lisp",
     "logo_url": "https://logo.clearbit.com/quadracollision.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Mianstack",
+    "tagline": "🚀 面栈 MianStack｜程序员面试题库天花板！Java、Python、数据库、算法、大模型、AI Agent、RAG 一栈备齐。真实面经关联高频考点，按公",
+    "website": "https://MianStack.com",
+    "categories": [
+      "llm",
+      "code",
+      "search",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agent",
+      "agentic-ai",
+      "ai-agent"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/didilili/mianstack/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "mianstack",
+    "logo_url": "https://logo.clearbit.com/MianStack.com",
     "free_alternatives": []
   },
   {
@@ -6672,6 +6875,37 @@
     "status": "active",
     "id": "wallhop",
     "logo_url": "https://logo.clearbit.com/wallhop.io",
+    "free_alternatives": []
+  },
+  {
+    "name": "Warsaw in voxels",
+    "tagline": "An interactive 3D map of the city centre",
+    "website": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "warsaw-in-voxels",
+    "logo_url": "https://logo.clearbit.com/p.migdal.pl",
     "free_alternatives": []
   },
   {
