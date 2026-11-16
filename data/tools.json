@@ -357,6 +357,37 @@
     "free_alternatives": []
   },
   {
+    "name": "AI Red Lines",
+    "tagline": "write down what would make you act on AI",
+    "website": "https://yourairedlines.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "ai-red-lines",
+    "logo_url": "https://logo.clearbit.com/yourairedlines.com",
+    "free_alternatives": []
+  },
+  {
     "name": "Ai Research Guide",
     "tagline": "AI 科研入门指南：大学选择、科研 60 问、入门项目、学习路线与论文卡片。A bilingual guide to getting started in AI",
     "website": "https://takamatsu-hikaru.github.io/AI-Research-Guide/",
@@ -493,6 +524,37 @@
     "free_alternatives": []
   },
   {
+    "name": "Aircad",
+    "tagline": "Professional drafting and 3D modeling in the browser",
+    "website": "https://aircad.com",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "aircad",
+    "logo_url": "https://logo.clearbit.com/aircad.com",
+    "free_alternatives": []
+  },
+  {
     "name": "AI·rete·RAG",
     "tagline": "a Rete rule engine decides, RAG explains why",
     "website": "https://ai-rete-rag.com/",
@@ -553,6 +615,37 @@
     "status": "active",
     "id": "apfel",
     "logo_url": "https://logo.clearbit.com/apfel.franzai.com",
+    "free_alternatives": []
+  },
+  {
+    "name": "Apron Chat Protocol",
+    "tagline": "Apron Chat Protocol - AI tool",
+    "website": "https://apron.chat/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "hacker-news",
+      "new-launch"
+    ],
+    "pricing": {
+      "has_free_tier": false,
+      "free_details": null,
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": false,
+      "docs_url": null,
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "apron-chat-protocol",
+    "logo_url": "https://logo.clearbit.com/apron.chat",
     "free_alternatives": []
   },
   {
@@ -716,6 +809,40 @@
     "status": "active",
     "id": "avoid-smooth-spinners-use-low",
     "logo_url": "https://logo.clearbit.com/nh2.me",
+    "free_alternatives": []
+  },
+  {
+    "name": "Awesome Ai For Astronomy",
+    "tagline": "A curated list of papers for AI in Astronomy & Astrophysics.",
+    "website": "https://xin-yuxiao.github.io/Awesome-AI-for-Astronomy/",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai-for-science",
+      "astronomy",
+      "awesome"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "awesome-ai-for-astronomy",
+    "logo_url": "https://logo.clearbit.com/xin-yuxiao.github.io",
     "free_alternatives": []
   },
   {
@@ -1850,7 +1977,8 @@
       "agents",
       "image",
       "search",
-      "audio"
+      "audio",
+      "productivity"
     ],
     "tags": [
       "tts",
@@ -1897,7 +2025,9 @@
       "bootsector",
       "demoscene",
       "attention-mechanism",
-      "educational"
+      "educational",
+      "ai-training",
+      "blackwell"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -2496,7 +2626,8 @@
     "tagline": "A 30-minute pendulum clock made from trash",
     "website": "https://niklasroy.com/gtc/",
     "categories": [
-      "llm"
+      "llm",
+      "image"
     ],
     "tags": [
       "hacker-news",
@@ -2996,6 +3127,41 @@
     "status": "active",
     "id": "indigene",
     "logo_url": "https://logo.clearbit.com/indigene.app",
+    "free_alternatives": []
+  },
+  {
+    "name": "Interactive Ai Ml Tools",
+    "tagline": "Free interactive tools for data scientists to learn MLOps, ML system design and",
+    "website": "https://futureproofds.com/tools?utm_source=github&utm_medium=readme&utm_campaign=andres_vourakis_github&utm_content=interactive_tools",
+    "categories": [
+      "llm",
+      "agents"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "agentic-ai",
+      "ai-agents",
+      "data-drift"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/Future-Proof-DS/interactive-ai-ml-tools/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "interactive-ai-ml-tools",
+    "logo_url": "https://logo.clearbit.com/futureproofds.com",
     "free_alternatives": []
   },
   {
@@ -4124,7 +4290,8 @@
       "github",
       "auto-research",
       "benchmark",
-      "deep-learning"
+      "deep-learning",
+      "language-models"
     ],
     "pricing": {
       "has_free_tier": true,
@@ -4178,6 +4345,40 @@
     "status": "active",
     "id": "nightingale",
     "logo_url": "https://logo.clearbit.com/nightingale.cafe",
+    "free_alternatives": []
+  },
+  {
+    "name": "Nlp For Machine Learning Bootcamp",
+    "tagline": "NLP for Machine Learning Bootcamp.",
+    "website": "https://www.somast.so",
+    "categories": [
+      "llm"
+    ],
+    "tags": [
+      "open-source",
+      "github",
+      "ai",
+      "bootcamp",
+      "machine-learning"
+    ],
+    "pricing": {
+      "has_free_tier": true,
+      "free_details": "Open source",
+      "paid_starts_at": null,
+      "pricing_url": null
+    },
+    "api": {
+      "available": true,
+      "docs_url": "https://github.com/somastllc/nlp-for-machine-learning-bootcamp/blob/main/README.md",
+      "key_url": null,
+      "base_url": null,
+      "rate_limits": null,
+      "env_var_name": null,
+      "auth_method": null
+    },
+    "status": "active",
+    "id": "nlp-for-machine-learning-bootcamp",
+    "logo_url": "https://logo.clearbit.com/www.somast.so",
     "free_alternatives": []
   },
   {
